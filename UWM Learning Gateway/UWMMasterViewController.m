@@ -16,6 +16,7 @@
 @end
 
 @implementation UWMMasterViewController
+@synthesize title,description,category,status,length,courses;
 
 - (void)awakeFromNib
 {
@@ -28,6 +29,19 @@
 
 - (void)viewDidLoad
 {
+    //change the title of the ViewController
+    self.navigationItem.title = @"Learning Gateway Courses";
+    //get the plists and parse the data into ViewController
+    NSString *coursesFile = [[NSBundle mainBundle] pathForResource:@"Courses" ofType:@"plist"];
+    courses = [[NSDictionary alloc] initWithContentsOfFile:coursesFile];
+    //access the data
+    status = [courses objectForKey:@"status"];
+    title = [courses objectForKey:@"title"];
+    length = [courses objectForKey:@"length"];
+    category = [courses objectForKey:@"category"];
+    description =[courses objectForKey:@"description"];
+    
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
@@ -62,15 +76,22 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    //return _objects.count;
+    return [title count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+//    NSDate *object = _objects[indexPath.row];
+//    cell.textLabel.text = [object description];
+    
+    NSString *titleOfCourses = [title objectAtIndex:indexPath.row];
+    cell.textLabel.text = titleOfCourses;
+    
+    NSNumber *lengthOfCourse = [length objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ minutes",lengthOfCourse];
     return cell;
 }
 

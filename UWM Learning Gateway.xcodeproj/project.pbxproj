@@ -23,6 +23,7 @@
 		44CF9684191202D0006D97D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF9660191202D0006D97D7 /* UIKit.framework */; };
 		44CF968C191202D0006D97D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CF968A191202D0006D97D7 /* InfoPlist.strings */; };
 		44CF968E191202D0006D97D7 /* UWM_Learning_GatewayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF968D191202D0006D97D7 /* UWM_Learning_GatewayTests.m */; };
+		44CF969819120336006D97D7 /* Courses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44CF969719120336006D97D7 /* Courses.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		44CF9689191202D0006D97D7 /* UWM Learning GatewayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UWM Learning GatewayTests-Info.plist"; sourceTree = "<group>"; };
 		44CF968B191202D0006D97D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44CF968D191202D0006D97D7 /* UWM_Learning_GatewayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWM_Learning_GatewayTests.m; sourceTree = "<group>"; };
+		44CF969719120336006D97D7 /* Courses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Courses.plist; path = ../Courses.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		44CF9663191202D0006D97D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44CF969719120336006D97D7 /* Courses.plist */,
 				44CF9664191202D0006D97D7 /* UWM Learning Gateway-Info.plist */,
 				44CF9665191202D0006D97D7 /* InfoPlist.strings */,
 				44CF9668191202D0006D97D7 /* main.m */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CF969819120336006D97D7 /* Courses.plist in Resources */,
 				44CF9673191202D0006D97D7 /* Main_iPad.storyboard in Resources */,
 				44CF967B191202D0006D97D7 /* Images.xcassets in Resources */,
 				44CF9670191202D0006D97D7 /* Main_iPhone.storyboard in Resources */,
