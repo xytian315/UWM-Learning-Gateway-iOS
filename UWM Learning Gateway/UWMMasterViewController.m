@@ -44,10 +44,10 @@
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    //self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+    //UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+   // self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (UWMDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 
@@ -139,8 +139,9 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+//        NSDate *object = _objects[indexPath.row];
+        NSString *descriptionOfCourse =[description objectAtIndex:indexPath.row];
+        [[segue destinationViewController] setDetailItem:descriptionOfCourse];
     }
 }
 
