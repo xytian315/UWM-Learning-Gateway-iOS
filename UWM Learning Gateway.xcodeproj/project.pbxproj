@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44CF965D191202D0006D97D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965C191202D0006D97D7 /* Foundation.framework */; };
+		44CF965F191202D0006D97D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965E191202D0006D97D7 /* CoreGraphics.framework */; };
+		44CF9661191202D0006D97D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF9660191202D0006D97D7 /* UIKit.framework */; };
+		44CF9667191202D0006D97D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CF9665191202D0006D97D7 /* InfoPlist.strings */; };
+		44CF9669191202D0006D97D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF9668191202D0006D97D7 /* main.m */; };
+		44CF966D191202D0006D97D7 /* UWMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF966C191202D0006D97D7 /* UWMAppDelegate.m */; };
+		44CF9670191202D0006D97D7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CF966E191202D0006D97D7 /* Main_iPhone.storyboard */; };
+		44CF9673191202D0006D97D7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CF9671191202D0006D97D7 /* Main_iPad.storyboard */; };
+		44CF9676191202D0006D97D7 /* UWMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF9675191202D0006D97D7 /* UWMMasterViewController.m */; };
+		44CF9679191202D0006D97D7 /* UWMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF9678191202D0006D97D7 /* UWMDetailViewController.m */; };
+		44CF967B191202D0006D97D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CF967A191202D0006D97D7 /* Images.xcassets */; };
+		44CF9682191202D0006D97D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF9681191202D0006D97D7 /* XCTest.framework */; };
+		44CF9683191202D0006D97D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965C191202D0006D97D7 /* Foundation.framework */; };
+		44CF9684191202D0006D97D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF9660191202D0006D97D7 /* UIKit.framework */; };
+		44CF968C191202D0006D97D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CF968A191202D0006D97D7 /* InfoPlist.strings */; };
+		44CF968E191202D0006D97D7 /* UWM_Learning_GatewayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF968D191202D0006D97D7 /* UWM_Learning_GatewayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44CF9685191202D0006D97D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CF9651191202D0006D97D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CF9658191202D0006D97D7;
+			remoteInfo = "UWM Learning Gateway";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44CF9659191202D0006D97D7 /* UWM Learning Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UWM Learning Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CF965C191202D0006D97D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44CF965E191202D0006D97D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44CF9660191202D0006D97D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44CF9664191202D0006D97D7 /* UWM Learning Gateway-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UWM Learning Gateway-Info.plist"; sourceTree = "<group>"; };
+		44CF9666191202D0006D97D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CF9668191202D0006D97D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44CF966A191202D0006D97D7 /* UWM Learning Gateway-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UWM Learning Gateway-Prefix.pch"; sourceTree = "<group>"; };
+		44CF966B191202D0006D97D7 /* UWMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWMAppDelegate.h; sourceTree = "<group>"; };
+		44CF966C191202D0006D97D7 /* UWMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWMAppDelegate.m; sourceTree = "<group>"; };
+		44CF966F191202D0006D97D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		44CF9672191202D0006D97D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		44CF9674191202D0006D97D7 /* UWMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWMMasterViewController.h; sourceTree = "<group>"; };
+		44CF9675191202D0006D97D7 /* UWMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWMMasterViewController.m; sourceTree = "<group>"; };
+		44CF9677191202D0006D97D7 /* UWMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWMDetailViewController.h; sourceTree = "<group>"; };
+		44CF9678191202D0006D97D7 /* UWMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWMDetailViewController.m; sourceTree = "<group>"; };
+		44CF967A191202D0006D97D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44CF9680191202D0006D97D7 /* UWM Learning GatewayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UWM Learning GatewayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CF9681191202D0006D97D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44CF9689191202D0006D97D7 /* UWM Learning GatewayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UWM Learning GatewayTests-Info.plist"; sourceTree = "<group>"; };
+		44CF968B191202D0006D97D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CF968D191202D0006D97D7 /* UWM_Learning_GatewayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWM_Learning_GatewayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CF9656191202D0006D97D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CF965F191202D0006D97D7 /* CoreGraphics.framework in Frameworks */,
+				44CF9661191202D0006D97D7 /* UIKit.framework in Frameworks */,
+				44CF965D191202D0006D97D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CF967D191202D0006D97D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CF9682191202D0006D97D7 /* XCTest.framework in Frameworks */,
+				44CF9684191202D0006D97D7 /* UIKit.framework in Frameworks */,
+				44CF9683191202D0006D97D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CF9650191202D0006D97D7 = {
+			isa = PBXGroup;
+			children = (
+				44CF9662191202D0006D97D7 /* UWM Learning Gateway */,
+				44CF9687191202D0006D97D7 /* UWM Learning GatewayTests */,
+				44CF965B191202D0006D97D7 /* Frameworks */,
+				44CF965A191202D0006D97D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CF965A191202D0006D97D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CF9659191202D0006D97D7 /* UWM Learning Gateway.app */,
+				44CF9680191202D0006D97D7 /* UWM Learning GatewayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CF965B191202D0006D97D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44CF965C191202D0006D97D7 /* Foundation.framework */,
+				44CF965E191202D0006D97D7 /* CoreGraphics.framework */,
+				44CF9660191202D0006D97D7 /* UIKit.framework */,
+				44CF9681191202D0006D97D7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44CF9662191202D0006D97D7 /* UWM Learning Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				44CF966B191202D0006D97D7 /* UWMAppDelegate.h */,
+				44CF966C191202D0006D97D7 /* UWMAppDelegate.m */,
+				44CF966E191202D0006D97D7 /* Main_iPhone.storyboard */,
+				44CF9671191202D0006D97D7 /* Main_iPad.storyboard */,
+				44CF9674191202D0006D97D7 /* UWMMasterViewController.h */,
+				44CF9675191202D0006D97D7 /* UWMMasterViewController.m */,
+				44CF9677191202D0006D97D7 /* UWMDetailViewController.h */,
+				44CF9678191202D0006D97D7 /* UWMDetailViewController.m */,
+				44CF967A191202D0006D97D7 /* Images.xcassets */,
+				44CF9663191202D0006D97D7 /* Supporting Files */,
+			);
+			path = "UWM Learning Gateway";
+			sourceTree = "<group>";
+		};
+		44CF9663191202D0006D97D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CF9664191202D0006D97D7 /* UWM Learning Gateway-Info.plist */,
+				44CF9665191202D0006D97D7 /* InfoPlist.strings */,
+				44CF9668191202D0006D97D7 /* main.m */,
+				44CF966A191202D0006D97D7 /* UWM Learning Gateway-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44CF9687191202D0006D97D7 /* UWM Learning GatewayTests */ = {
+			isa = PBXGroup;
+			children = (
+				44CF968D191202D0006D97D7 /* UWM_Learning_GatewayTests.m */,
+				44CF9688191202D0006D97D7 /* Supporting Files */,
+			);
+			path = "UWM Learning GatewayTests";
+			sourceTree = "<group>";
+		};
+		44CF9688191202D0006D97D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CF9689191202D0006D97D7 /* UWM Learning GatewayTests-Info.plist */,
+				44CF968A191202D0006D97D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CF9658191202D0006D97D7 /* UWM Learning Gateway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CF9691191202D0006D97D7 /* Build configuration list for PBXNativeTarget "UWM Learning Gateway" */;
+			buildPhases = (
+				44CF9655191202D0006D97D7 /* Sources */,
+				44CF9656191202D0006D97D7 /* Frameworks */,
+				44CF9657191202D0006D97D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UWM Learning Gateway";
+			productName = "UWM Learning Gateway";
+			productReference = 44CF9659191202D0006D97D7 /* UWM Learning Gateway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44CF967F191202D0006D97D7 /* UWM Learning GatewayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CF9694191202D0006D97D7 /* Build configuration list for PBXNativeTarget "UWM Learning GatewayTests" */;
+			buildPhases = (
+				44CF967C191202D0006D97D7 /* Sources */,
+				44CF967D191202D0006D97D7 /* Frameworks */,
+				44CF967E191202D0006D97D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CF9686191202D0006D97D7 /* PBXTargetDependency */,
+			);
+			name = "UWM Learning GatewayTests";
+			productName = "UWM Learning GatewayTests";
+			productReference = 44CF9680191202D0006D97D7 /* UWM Learning GatewayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CF9651191202D0006D97D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UWM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Xiaoyi Tian";
+				TargetAttributes = {
+					44CF967F191202D0006D97D7 = {
+						TestTargetID = 44CF9658191202D0006D97D7;
+					};
+				};
+			};
+			buildConfigurationList = 44CF9654191202D0006D97D7 /* Build configuration list for PBXProject "UWM Learning Gateway" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44CF9650191202D0006D97D7;
+			productRefGroup = 44CF965A191202D0006D97D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CF9658191202D0006D97D7 /* UWM Learning Gateway */,
+				44CF967F191202D0006D97D7 /* UWM Learning GatewayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CF9657191202D0006D97D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CF9673191202D0006D97D7 /* Main_iPad.storyboard in Resources */,
+				44CF967B191202D0006D97D7 /* Images.xcassets in Resources */,
+				44CF9670191202D0006D97D7 /* Main_iPhone.storyboard in Resources */,
+				44CF9667191202D0006D97D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CF967E191202D0006D97D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CF968C191202D0006D97D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CF9655191202D0006D97D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CF9676191202D0006D97D7 /* UWMMasterViewController.m in Sources */,
+				44CF966D191202D0006D97D7 /* UWMAppDelegate.m in Sources */,
+				44CF9669191202D0006D97D7 /* main.m in Sources */,
+				44CF9679191202D0006D97D7 /* UWMDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CF967C191202D0006D97D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CF968E191202D0006D97D7 /* UWM_Learning_GatewayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44CF9686191202D0006D97D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CF9658191202D0006D97D7 /* UWM Learning Gateway */;
+			targetProxy = 44CF9685191202D0006D97D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44CF9665191202D0006D97D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CF9666191202D0006D97D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44CF966E191202D0006D97D7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CF966F191202D0006D97D7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		44CF9671191202D0006D97D7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CF9672191202D0006D97D7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		44CF968A191202D0006D97D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CF968B191202D0006D97D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CF968F191202D0006D97D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44CF9690191202D0006D97D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44CF9692191202D0006D97D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UWM Learning Gateway/UWM Learning Gateway-Prefix.pch";
+				INFOPLIST_FILE = "UWM Learning Gateway/UWM Learning Gateway-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44CF9693191202D0006D97D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UWM Learning Gateway/UWM Learning Gateway-Prefix.pch";
+				INFOPLIST_FILE = "UWM Learning Gateway/UWM Learning Gateway-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44CF9695191202D0006D97D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UWM Learning Gateway.app/UWM Learning Gateway";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UWM Learning Gateway/UWM Learning Gateway-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UWM Learning GatewayTests/UWM Learning GatewayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		44CF9696191202D0006D97D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UWM Learning Gateway.app/UWM Learning Gateway";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UWM Learning Gateway/UWM Learning Gateway-Prefix.pch";
+				INFOPLIST_FILE = "UWM Learning GatewayTests/UWM Learning GatewayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CF9654191202D0006D97D7 /* Build configuration list for PBXProject "UWM Learning Gateway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CF968F191202D0006D97D7 /* Debug */,
+				44CF9690191202D0006D97D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CF9691191202D0006D97D7 /* Build configuration list for PBXNativeTarget "UWM Learning Gateway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CF9692191202D0006D97D7 /* Debug */,
+				44CF9693191202D0006D97D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44CF9694191202D0006D97D7 /* Build configuration list for PBXNativeTarget "UWM Learning GatewayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CF9695191202D0006D97D7 /* Debug */,
+				44CF9696191202D0006D97D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44CF9651191202D0006D97D7 /* Project object */;
+}
