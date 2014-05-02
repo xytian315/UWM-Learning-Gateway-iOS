@@ -14,6 +14,11 @@
 
 
 @property(strong,nonatomic) NSArray *coursesData;
+@property (weak, nonatomic) IBOutlet UITableView *activeCourseTableView;
+@property (weak, nonatomic) IBOutlet UITableView *devCourseTableView;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
+
+- (IBAction)segementValueChanged:(UISegmentedControl *)sender;
 
 @property (strong, nonatomic) UWMDetailViewController *detailViewController;
 
