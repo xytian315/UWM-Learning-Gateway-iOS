@@ -16,7 +16,6 @@
 		44CF966D191202D0006D97D7 /* UWMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF966C191202D0006D97D7 /* UWMAppDelegate.m */; };
 		44CF9670191202D0006D97D7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CF966E191202D0006D97D7 /* Main_iPhone.storyboard */; };
 		44CF9673191202D0006D97D7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CF9671191202D0006D97D7 /* Main_iPad.storyboard */; };
-		44CF9676191202D0006D97D7 /* UWMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF9675191202D0006D97D7 /* UWMMasterViewController.m */; };
 		44CF9679191202D0006D97D7 /* UWMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF9678191202D0006D97D7 /* UWMDetailViewController.m */; };
 		44CF967B191202D0006D97D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CF967A191202D0006D97D7 /* Images.xcassets */; };
 		44CF9682191202D0006D97D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF9681191202D0006D97D7 /* XCTest.framework */; };
@@ -52,8 +51,6 @@
 		44CF966C191202D0006D97D7 /* UWMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWMAppDelegate.m; sourceTree = "<group>"; };
 		44CF966F191202D0006D97D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		44CF9672191202D0006D97D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		44CF9674191202D0006D97D7 /* UWMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWMMasterViewController.h; sourceTree = "<group>"; };
-		44CF9675191202D0006D97D7 /* UWMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWMMasterViewController.m; sourceTree = "<group>"; };
 		44CF9677191202D0006D97D7 /* UWMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWMDetailViewController.h; sourceTree = "<group>"; };
 		44CF9678191202D0006D97D7 /* UWMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWMDetailViewController.m; sourceTree = "<group>"; };
 		44CF967A191202D0006D97D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -128,8 +125,6 @@
 				443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */,
 				443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */,
 				44CF9671191202D0006D97D7 /* Main_iPad.storyboard */,
-				44CF9674191202D0006D97D7 /* UWMMasterViewController.h */,
-				44CF9675191202D0006D97D7 /* UWMMasterViewController.m */,
 				44CF9677191202D0006D97D7 /* UWMDetailViewController.h */,
 				44CF9678191202D0006D97D7 /* UWMDetailViewController.m */,
 				44CF967A191202D0006D97D7 /* Images.xcassets */,
@@ -268,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44CF9676191202D0006D97D7 /* UWMMasterViewController.m in Sources */,
 				44CF966D191202D0006D97D7 /* UWMAppDelegate.m in Sources */,
 				443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */,
 				44CF9669191202D0006D97D7 /* main.m in Sources */,
