@@ -16,7 +16,7 @@
 @end
 
 @implementation UWMMasterViewController
-@synthesize title,description,category,status,length,courses;
+@synthesize coursesData,courseTitle,courseDescription,courseLength;
 
 - (void)awakeFromNib
 {
@@ -32,14 +32,15 @@
     //change the title of the ViewController
     self.navigationItem.title = @"Learning Gateway Courses";
     //get the plists and parse the data into ViewController
-    NSString *coursesFile = [[NSBundle mainBundle] pathForResource:@"Courses" ofType:@"plist"];
-    courses = [[NSDictionary alloc] initWithContentsOfFile:coursesFile];
+   
+    
+    self.coursesData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"Courses" ofType: @"plist"]];
+    
     //access the data
-    status = [courses objectForKey:@"status"];
-    title = [courses objectForKey:@"title"];
-    length = [courses objectForKey:@"length"];
-    category = [courses objectForKey:@"category"];
-    description =[courses objectForKey:@"description"];
+
+//    coursetitle = [courses objectForKey:@"title"];
+//    length = [courses objectForKey:@"length"];
+//    description =[courses objectForKey:@"description"];
     
     
     [super viewDidLoad];
@@ -71,14 +72,19 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return [coursesData count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     //return _objects.count;
-    return [title count];
+    return [[[[coursesData objectAtIndex: section] objectForKey: @"courses"] objectForKey:@"courseTitle" ] count];
 }
+
+-(NSString *)tableView:(UITableView*) tableView titleForHeaderInSection:(NSInteger)section{
+     return [[coursesData objectAtIndex: section] objectForKey: @"sectionTitle"];
+}
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -87,10 +93,10 @@
 //    NSDate *object = _objects[indexPath.row];
 //    cell.textLabel.text = [object description];
     
-    NSString *titleOfCourses = [title objectAtIndex:indexPath.row];
+    NSString *titleOfCourses = [[[[coursesData objectAtIndex: indexPath.section] objectForKey: @"courses"] objectForKey:@"courseTitle"] objectAtIndex:indexPath.row];
     cell.textLabel.text = titleOfCourses;
     
-    NSNumber *lengthOfCourse = [length objectAtIndex:indexPath.row];
+    NSNumber *lengthOfCourse = [[[[coursesData objectAtIndex: indexPath.section] objectForKey: @"courses"] objectForKey:@"courseLength"] objectAtIndex:indexPath.row];;
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ minutes",lengthOfCourse];
     return cell;
 }
@@ -140,7 +146,7 @@
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
 //        NSDate *object = _objects[indexPath.row];
-        NSString *descriptionOfCourse =[description objectAtIndex:indexPath.row];
+        NSString *descriptionOfCourse =[[[[coursesData objectAtIndex: indexPath.section] objectForKey: @"courses"] objectForKey:@"courseDescription"] objectAtIndex:indexPath.row];;
         [[segue destinationViewController] setDetailItem:descriptionOfCourse];
     }
 }

@@ -12,12 +12,11 @@
 
 @interface UWMMasterViewController : UITableViewController
 
-@property(strong,nonatomic) NSDictionary *courses;
-@property(strong,nonatomic) NSArray *status;
-@property(strong,nonatomic) NSArray *title;
-@property(strong,nonatomic) NSArray *length;
-@property(strong,nonatomic) NSArray *category;
-@property(strong,nonatomic) NSArray *description;
+@property(strong,nonatomic) NSArray *coursesData;
+@property(strong,nonatomic) NSArray *courseTitle;
+@property(strong,nonatomic) NSArray *courseLength;
+@property(strong,nonatomic) NSArray *courseDescription;
+
 
 @property (strong, nonatomic) UWMDetailViewController *detailViewController;
 
