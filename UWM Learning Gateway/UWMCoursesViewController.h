@@ -1,8 +1,8 @@
 //
-//  UWMMasterViewController.h
+//  UWMCoursesViewController.h
 //  UWM Learning Gateway
 //
-//  Created by Xiaoyi Tian on 4/30/14.
+//  Created by Xiaoyi Tian on 5/2/14.
 //  Copyright (c) 2014 Xiaoyi Tian. All rights reserved.
 //
 
@@ -10,11 +10,10 @@
 
 @class UWMDetailViewController;
 
-@interface UWMMasterViewController : UITableViewController
+@interface UWMCoursesViewController : UIViewController
+
 
 @property(strong,nonatomic) NSArray *coursesData;
-
-
 
 @property (strong, nonatomic) UWMDetailViewController *detailViewController;
 

@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>sectionTitle</key>
-		<string>Federal State Requirements</string>
+		<string>A. Federal State Requirements</string>
 		<key>courses</key>
 		<dict>
 			<key>courseTitle</key>
@@ -32,7 +32,7 @@
 	</dict>
 	<dict>
 		<key>sectionTitle</key>
-		<string>ACGME Requirements</string>
+		<string>B. ACGME Requirements</string>
 		<key>courses</key>
 		<dict>
 			<key>courseTitle</key>
@@ -54,7 +54,7 @@
 	</dict>
 	<dict>
 		<key>sectionTitle</key>
-		<string>Medical Centers Requirements</string>
+		<string>C. Medical Centers Requirements</string>
 		<key>courses</key>
 		<dict>
 			<key>courseTitle</key>

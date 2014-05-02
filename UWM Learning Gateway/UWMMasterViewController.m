@@ -16,7 +16,7 @@
 @end
 
 @implementation UWMMasterViewController
-@synthesize coursesData,courseTitle,courseDescription,courseLength;
+@synthesize coursesData;
 
 - (void)awakeFromNib
 {
