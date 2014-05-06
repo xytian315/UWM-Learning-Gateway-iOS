@@ -14,7 +14,7 @@
 @end
 
 @implementation UWMCoursesViewController
-@synthesize coursesData;
+@synthesize coursesData,devCoursesData;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,7 +32,8 @@
     //get the plists and parse the data into ViewController
     
     
-    self.coursesData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"Courses" ofType: @"plist"]];
+    self.coursesData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"ActiveCourses" ofType: @"plist"]];
+    self.devCoursesData = [NSDictionary dictionaryWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"InDevelopCourses" ofType: @"plist"]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
