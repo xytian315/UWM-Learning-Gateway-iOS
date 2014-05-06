@@ -14,7 +14,7 @@
 @end
 
 @implementation UWMCoursesViewController
-@synthesize coursesData,devCoursesData;
+@synthesize coursesData,devCoursesData,segmentedControl;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,7 +33,7 @@
     
     
     self.coursesData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"ActiveCourses" ofType: @"plist"]];
-    self.devCoursesData = [NSDictionary dictionaryWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"InDevelopCourses" ofType: @"plist"]];
+
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
@@ -142,19 +142,36 @@
 
 
 - (IBAction)segementValueChanged:(UISegmentedControl *)sender {
+   
     switch (sender.selectedSegmentIndex) {
         case 0:
-            self.activeCourseTableView.hidden =NO;
-            self.devCourseTableView.hidden=YES;
+            self.coursesData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"ActiveCourses" ofType: @"plist"]];
             break;
         case 1:
-            self.activeCourseTableView.hidden=YES;
-            self.devCourseTableView.hidden = NO;
-            break;
+            self.coursesData=[NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"InDevelopCourses" ofType: @"plist"]];
         default:
-            self.activeCourseTableView.hidden =NO;
-            self.devCourseTableView.hidden=YES;
             break;
     }
+  
+    
+    // reload data based on the new index
+    [self.activeCourseTableView reloadData];
+
+    
+    
+//    switch (sender.selectedSegmentIndex) {
+//        case 0:
+//            self.activeCourseTableView.hidden =NO;
+//            self.devCourseTableView.hidden=YES;
+//            break;
+//        case 1:
+//            self.activeCourseTableView.hidden=YES;
+//            self.devCourseTableView.hidden = NO;
+//            break;
+//        default:
+//            self.activeCourseTableView.hidden =NO;
+//            self.devCourseTableView.hidden=YES;
+//            break;
+//    }
 }
 @end

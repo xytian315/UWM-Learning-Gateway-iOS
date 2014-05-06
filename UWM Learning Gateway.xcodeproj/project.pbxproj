@@ -39,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		440D14EF1918A7C3007D4179 /* UWMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMMainViewController.h; sourceTree = "<group>"; };
-		440D14F01918A7C3007D4179 /* UWMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMMainViewController.m; sourceTree = "<group>"; };
+		440D14EF1918A7C3007D4179 /* UWMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UWMMainViewController.h; path = ../UWMMainViewController.h; sourceTree = "<group>"; };
+		440D14F01918A7C3007D4179 /* UWMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UWMMainViewController.m; path = ../UWMMainViewController.m; sourceTree = "<group>"; };
 		440D14F21918ADA3007D4179 /* InDevelopCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InDevelopCourses.plist; sourceTree = "<group>"; };
 		443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMCoursesViewController.h; sourceTree = "<group>"; };
 		443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMCoursesViewController.m; sourceTree = "<group>"; };
@@ -94,8 +94,6 @@
 		44CF9650191202D0006D97D7 = {
 			isa = PBXGroup;
 			children = (
-				440D14EF1918A7C3007D4179 /* UWMMainViewController.h */,
-				440D14F01918A7C3007D4179 /* UWMMainViewController.m */,
 				44CF9662191202D0006D97D7 /* UWM Learning Gateway */,
 				44CF9687191202D0006D97D7 /* UWM Learning GatewayTests */,
 				44CF965B191202D0006D97D7 /* Frameworks */,
@@ -126,6 +124,8 @@
 		44CF9662191202D0006D97D7 /* UWM Learning Gateway */ = {
 			isa = PBXGroup;
 			children = (
+				440D14EF1918A7C3007D4179 /* UWMMainViewController.h */,
+				440D14F01918A7C3007D4179 /* UWMMainViewController.m */,
 				44CF966B191202D0006D97D7 /* UWMAppDelegate.h */,
 				44CF966C191202D0006D97D7 /* UWMAppDelegate.m */,
 				44CF966E191202D0006D97D7 /* Main_iPhone.storyboard */,

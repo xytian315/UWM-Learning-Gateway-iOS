@@ -14,7 +14,7 @@
 
 
 @property(strong,nonatomic) NSArray *coursesData;
-@property(strong,nonatomic) NSDictionary *devCoursesData;
+@property(strong,nonatomic) NSArray *devCoursesData;
 @property (weak, nonatomic) IBOutlet UITableView *activeCourseTableView;
 @property (weak, nonatomic) IBOutlet UITableView *devCourseTableView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
