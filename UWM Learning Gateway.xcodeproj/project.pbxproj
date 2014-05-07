@@ -37,6 +37,7 @@
 		44940162191A0A81001DB0A7 /* FontAwesomeRegular.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4494014B191A0A81001DB0A7 /* FontAwesomeRegular.strings */; };
 		44940163191A0A81001DB0A7 /* IconicStroke.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4494014C191A0A81001DB0A7 /* IconicStroke.strings */; };
 		44940169191A13DD001DB0A7 /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44940168191A13DD001DB0A7 /* pattern.jpg */; };
+		44AE55CC191AA7FA00D342FC /* UWMAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AE55CB191AA7FA00D342FC /* UWMAboutViewController.m */; };
 		44CF965D191202D0006D97D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965C191202D0006D97D7 /* Foundation.framework */; };
 		44CF965F191202D0006D97D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965E191202D0006D97D7 /* CoreGraphics.framework */; };
 		44CF9661191202D0006D97D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF9660191202D0006D97D7 /* UIKit.framework */; };
@@ -122,6 +123,8 @@
 		4494014B191A0A81001DB0A7 /* FontAwesomeRegular.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = FontAwesomeRegular.strings; sourceTree = "<group>"; };
 		4494014C191A0A81001DB0A7 /* IconicStroke.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = IconicStroke.strings; sourceTree = "<group>"; };
 		44940168191A13DD001DB0A7 /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpg; sourceTree = "<group>"; };
+		44AE55CA191AA7FA00D342FC /* UWMAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMAboutViewController.h; sourceTree = "<group>"; };
+		44AE55CB191AA7FA00D342FC /* UWMAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMAboutViewController.m; sourceTree = "<group>"; };
 		44CF9659191202D0006D97D7 /* UWM Learning Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UWM Learning Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CF965C191202D0006D97D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44CF965E191202D0006D97D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -298,6 +301,8 @@
 				449400E91919ED87001DB0A7 /* UIButton+Bootstrap.m */,
 				4494011E191A0A81001DB0A7 /* Sources */,
 				44CF966E191202D0006D97D7 /* Main_iPhone.storyboard */,
+				44AE55CA191AA7FA00D342FC /* UWMAboutViewController.h */,
+				44AE55CB191AA7FA00D342FC /* UWMAboutViewController.m */,
 				44CF966B191202D0006D97D7 /* UWMAppDelegate.h */,
 				44CF966C191202D0006D97D7 /* UWMAppDelegate.m */,
 				44FA47FA1919A5F900406D38 /* UWMQuicklinksTableViewController.h */,
@@ -475,6 +480,7 @@
 				443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */,
 				4494014E191A0A81001DB0A7 /* FIEntypoSocialIcon.m in Sources */,
 				44940150191A0A81001DB0A7 /* FIFont.m in Sources */,
+				44AE55CC191AA7FA00D342FC /* UWMAboutViewController.m in Sources */,
 				44940157191A0A81001DB0A7 /* FIIconicIcon.m in Sources */,
 				44CF9669191202D0006D97D7 /* main.m in Sources */,
 				4494011D191A078B001DB0A7 /* NSString+FontAwesome.m in Sources */,
