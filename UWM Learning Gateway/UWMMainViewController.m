@@ -8,6 +8,8 @@
 
 #import "UWMMainViewController.h"
 #import "UWMCoursesViewController.h"
+#import "UIButton+Bootstrap.h"
+#import "NSString+FontAwesome.h"
 
 @interface UWMMainViewController () <MFMailComposeViewControllerDelegate>
 
@@ -28,6 +30,14 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.courseButton warningStyle];
+     [self.courseButton addAwesomeIcon:FAIconStar beforeTitle:YES];
+    [self.aboutUSButton warningStyle];
+    [self.quicklinksButton warningStyle];
+    [self.feedbackButton warningStyle];
+    [self.aboutUSButton addAwesomeIcon:FAIconDownloadAlt  beforeTitle:YES];
+     [self.quicklinksButton addAwesomeIcon:FAIconDownloadAlt  beforeTitle:YES];
+     [self.feedbackButton addAwesomeIcon:FAIconDownloadAlt  beforeTitle:YES];
 }
 
 - (void)didReceiveMemoryWarning

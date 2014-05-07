@@ -12,5 +12,9 @@
 @interface UWMMainViewController : UIViewController
 - (IBAction)showCourses:(id)sender;
 - (IBAction)sendEmail:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *courseButton;
+@property (weak, nonatomic) IBOutlet UIButton *aboutUSButton;
+@property (weak, nonatomic) IBOutlet UIButton *quicklinksButton;
 
+@property (weak, nonatomic) IBOutlet UIButton *feedbackButton;
 @end

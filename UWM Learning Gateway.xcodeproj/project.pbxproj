@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 440D14F21918ADA3007D4179 /* InDevelopCourses.plist */; };
 		443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */; };
+		449400EA1919ED87001DB0A7 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 449400E51919ED87001DB0A7 /* FontAwesome.ttf */; };
+		449400EB1919ED87001DB0A7 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 449400E71919ED87001DB0A7 /* NSString+FontAwesome.m */; };
+		449400EC1919ED87001DB0A7 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 449400E91919ED87001DB0A7 /* UIButton+Bootstrap.m */; };
 		44CF965D191202D0006D97D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965C191202D0006D97D7 /* Foundation.framework */; };
 		44CF965F191202D0006D97D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965E191202D0006D97D7 /* CoreGraphics.framework */; };
 		44CF9661191202D0006D97D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF9660191202D0006D97D7 /* UIKit.framework */; };
@@ -45,6 +48,11 @@
 		440D14F21918ADA3007D4179 /* InDevelopCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InDevelopCourses.plist; sourceTree = "<group>"; };
 		443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMCoursesViewController.h; sourceTree = "<group>"; };
 		443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMCoursesViewController.m; sourceTree = "<group>"; };
+		449400E51919ED87001DB0A7 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		449400E61919ED87001DB0A7 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		449400E71919ED87001DB0A7 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		449400E81919ED87001DB0A7 /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
+		449400E91919ED87001DB0A7 /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
 		44CF9659191202D0006D97D7 /* UWM Learning Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UWM Learning Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CF965C191202D0006D97D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44CF965E191202D0006D97D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +145,11 @@
 				44FA47FD1919A69300406D38 /* UWMMainViewController.h */,
 				44CF966B191202D0006D97D7 /* UWMAppDelegate.h */,
 				44CF966C191202D0006D97D7 /* UWMAppDelegate.m */,
+				449400E51919ED87001DB0A7 /* FontAwesome.ttf */,
+				449400E61919ED87001DB0A7 /* NSString+FontAwesome.h */,
+				449400E71919ED87001DB0A7 /* NSString+FontAwesome.m */,
+				449400E81919ED87001DB0A7 /* UIButton+Bootstrap.h */,
+				449400E91919ED87001DB0A7 /* UIButton+Bootstrap.m */,
 				44CF966E191202D0006D97D7 /* Main_iPhone.storyboard */,
 				44FA47FA1919A5F900406D38 /* UWMQuicklinksTableViewController.h */,
 				44FA47FB1919A5F900406D38 /* UWMQuicklinksTableViewController.m */,
@@ -263,6 +276,7 @@
 				44CF969819120336006D97D7 /* ActiveCourses.plist in Resources */,
 				44CF9673191202D0006D97D7 /* Main_iPad.storyboard in Resources */,
 				44FA48011919A70800406D38 /* Quicklinks.plist in Resources */,
+				449400EA1919ED87001DB0A7 /* FontAwesome.ttf in Resources */,
 				440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */,
 				44CF967B191202D0006D97D7 /* Images.xcassets in Resources */,
 				44CF9670191202D0006D97D7 /* Main_iPhone.storyboard in Resources */,
@@ -285,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449400EB1919ED87001DB0A7 /* NSString+FontAwesome.m in Sources */,
 				44CF966D191202D0006D97D7 /* UWMAppDelegate.m in Sources */,
+				449400EC1919ED87001DB0A7 /* UIButton+Bootstrap.m in Sources */,
 				443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */,
 				44CF9669191202D0006D97D7 /* main.m in Sources */,
 				44FA47FC1919A5F900406D38 /* UWMQuicklinksTableViewController.m in Sources */,
