@@ -12,6 +12,7 @@
 @property(strong,nonatomic) NSDictionary *linksData;
 @property(strong,nonatomic) NSArray *linksTitle;
 @property(strong,nonatomic) NSArray *linksContent;
-@property (strong, nonatomic) IBOutlet UIBarButtonItem *homeButton;
+
+@property (weak, nonatomic) IBOutlet UIButton *homeButton;
 
 @end

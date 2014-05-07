@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
 
 - (IBAction)segementValueChanged:(UISegmentedControl *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *homeButton;
 
 @property (strong, nonatomic) UWMDetailViewController *detailViewController;
 

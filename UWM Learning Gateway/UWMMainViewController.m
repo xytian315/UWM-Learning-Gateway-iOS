@@ -11,6 +11,7 @@
 #import "UIButton+Bootstrap.h"
 #import "NSString+FontAwesome.h"
 
+
 @interface UWMMainViewController () <MFMailComposeViewControllerDelegate>
 
 @end
@@ -28,13 +29,17 @@
 
 - (void)viewDidLoad
 {
-    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pattern.jpg"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pattern.jpg"]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.courseButton warningStyle];
+    //[self.courseButton addAwesomeIcon:FAIconBookmark beforeTitle:YES];
+    
+    
     [self.aboutUSButton warningStyle];
     [self.quicklinksButton warningStyle];
     [self.feedbackButton warningStyle];
+   
     
 //    self.courseButton.frame = CGRectMake(0, 0, 60, 40);
 //    FIIcon *icon = [FIEntypoIcon leafIcon];

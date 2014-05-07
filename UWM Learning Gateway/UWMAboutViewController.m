@@ -7,6 +7,7 @@
 //
 
 #import "UWMAboutViewController.h"
+#import "UIButton+Bootstrap.h"
 
 @interface UWMAboutViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -25,8 +26,9 @@
 
 - (void)viewDidLoad
 {
-    self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
-    self.navigationItem.title = @"Learning Gateway";
+    [self.homeButton warningStyle];
+   // self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
+    self.navigationItem.title = @"About";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }

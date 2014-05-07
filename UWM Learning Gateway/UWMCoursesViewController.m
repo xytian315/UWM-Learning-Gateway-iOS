@@ -8,6 +8,7 @@
 
 #import "UWMCoursesViewController.h"
 #import "UWMDetailViewController.h"
+#import "UIButton+Bootstrap.h"
 
 @interface UWMCoursesViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -27,8 +28,9 @@
 
 - (void)viewDidLoad
 {
-    self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
-    self.navigationItem.title = @"Learning Gateway Courses";
+    [self.homeButton warningStyle];
+    //self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
+    self.navigationItem.title = @"Courses";
     //get the plists and parse the data into ViewController
     
     
