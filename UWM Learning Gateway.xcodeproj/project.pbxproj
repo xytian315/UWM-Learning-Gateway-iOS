@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		440D14F11918A7C3007D4179 /* UWMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D14F01918A7C3007D4179 /* UWMMainViewController.m */; };
 		440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 440D14F21918ADA3007D4179 /* InDevelopCourses.plist */; };
 		443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */; };
 		44CF965D191202D0006D97D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965C191202D0006D97D7 /* Foundation.framework */; };
@@ -26,6 +25,10 @@
 		44CF968C191202D0006D97D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CF968A191202D0006D97D7 /* InfoPlist.strings */; };
 		44CF968E191202D0006D97D7 /* UWM_Learning_GatewayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF968D191202D0006D97D7 /* UWM_Learning_GatewayTests.m */; };
 		44CF969819120336006D97D7 /* ActiveCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44CF969719120336006D97D7 /* ActiveCourses.plist */; };
+		44FA47FC1919A5F900406D38 /* UWMQuicklinksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FA47FB1919A5F900406D38 /* UWMQuicklinksTableViewController.m */; };
+		44FA47FF1919A69E00406D38 /* UWMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FA47FE1919A69E00406D38 /* UWMMainViewController.m */; };
+		44FA48011919A70800406D38 /* Quicklinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44FA48001919A70800406D38 /* Quicklinks.plist */; };
+		44FA48031919B07B00406D38 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FA48021919B07B00406D38 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		440D14EF1918A7C3007D4179 /* UWMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UWMMainViewController.h; path = ../UWMMainViewController.h; sourceTree = "<group>"; };
-		440D14F01918A7C3007D4179 /* UWMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UWMMainViewController.m; path = ../UWMMainViewController.m; sourceTree = "<group>"; };
 		440D14F21918ADA3007D4179 /* InDevelopCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InDevelopCourses.plist; sourceTree = "<group>"; };
 		443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMCoursesViewController.h; sourceTree = "<group>"; };
 		443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMCoursesViewController.m; sourceTree = "<group>"; };
@@ -65,6 +66,12 @@
 		44CF968B191202D0006D97D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44CF968D191202D0006D97D7 /* UWM_Learning_GatewayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWM_Learning_GatewayTests.m; sourceTree = "<group>"; };
 		44CF969719120336006D97D7 /* ActiveCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ActiveCourses.plist; path = ../ActiveCourses.plist; sourceTree = "<group>"; };
+		44FA47FA1919A5F900406D38 /* UWMQuicklinksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMQuicklinksTableViewController.h; sourceTree = "<group>"; };
+		44FA47FB1919A5F900406D38 /* UWMQuicklinksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMQuicklinksTableViewController.m; sourceTree = "<group>"; };
+		44FA47FD1919A69300406D38 /* UWMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMMainViewController.h; sourceTree = "<group>"; };
+		44FA47FE1919A69E00406D38 /* UWMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMMainViewController.m; sourceTree = "<group>"; };
+		44FA48001919A70800406D38 /* Quicklinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Quicklinks.plist; sourceTree = "<group>"; };
+		44FA48021919B07B00406D38 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44FA48031919B07B00406D38 /* MessageUI.framework in Frameworks */,
 				44CF965F191202D0006D97D7 /* CoreGraphics.framework in Frameworks */,
 				44CF9661191202D0006D97D7 /* UIKit.framework in Frameworks */,
 				44CF965D191202D0006D97D7 /* Foundation.framework in Frameworks */,
@@ -113,6 +121,7 @@
 		44CF965B191202D0006D97D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44FA48021919B07B00406D38 /* MessageUI.framework */,
 				44CF965C191202D0006D97D7 /* Foundation.framework */,
 				44CF965E191202D0006D97D7 /* CoreGraphics.framework */,
 				44CF9660191202D0006D97D7 /* UIKit.framework */,
@@ -124,11 +133,13 @@
 		44CF9662191202D0006D97D7 /* UWM Learning Gateway */ = {
 			isa = PBXGroup;
 			children = (
-				440D14EF1918A7C3007D4179 /* UWMMainViewController.h */,
-				440D14F01918A7C3007D4179 /* UWMMainViewController.m */,
+				44FA47FE1919A69E00406D38 /* UWMMainViewController.m */,
+				44FA47FD1919A69300406D38 /* UWMMainViewController.h */,
 				44CF966B191202D0006D97D7 /* UWMAppDelegate.h */,
 				44CF966C191202D0006D97D7 /* UWMAppDelegate.m */,
 				44CF966E191202D0006D97D7 /* Main_iPhone.storyboard */,
+				44FA47FA1919A5F900406D38 /* UWMQuicklinksTableViewController.h */,
+				44FA47FB1919A5F900406D38 /* UWMQuicklinksTableViewController.m */,
 				443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */,
 				443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */,
 				44CF9671191202D0006D97D7 /* Main_iPad.storyboard */,
@@ -146,6 +157,7 @@
 				44CF969719120336006D97D7 /* ActiveCourses.plist */,
 				440D14F21918ADA3007D4179 /* InDevelopCourses.plist */,
 				44CF9664191202D0006D97D7 /* UWM Learning Gateway-Info.plist */,
+				44FA48001919A70800406D38 /* Quicklinks.plist */,
 				44CF9665191202D0006D97D7 /* InfoPlist.strings */,
 				44CF9668191202D0006D97D7 /* main.m */,
 				44CF966A191202D0006D97D7 /* UWM Learning Gateway-Prefix.pch */,
@@ -250,6 +262,7 @@
 			files = (
 				44CF969819120336006D97D7 /* ActiveCourses.plist in Resources */,
 				44CF9673191202D0006D97D7 /* Main_iPad.storyboard in Resources */,
+				44FA48011919A70800406D38 /* Quicklinks.plist in Resources */,
 				440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */,
 				44CF967B191202D0006D97D7 /* Images.xcassets in Resources */,
 				44CF9670191202D0006D97D7 /* Main_iPhone.storyboard in Resources */,
@@ -275,8 +288,9 @@
 				44CF966D191202D0006D97D7 /* UWMAppDelegate.m in Sources */,
 				443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */,
 				44CF9669191202D0006D97D7 /* main.m in Sources */,
+				44FA47FC1919A5F900406D38 /* UWMQuicklinksTableViewController.m in Sources */,
+				44FA47FF1919A69E00406D38 /* UWMMainViewController.m in Sources */,
 				44CF9679191202D0006D97D7 /* UWMDetailViewController.m in Sources */,
-				440D14F11918A7C3007D4179 /* UWMMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

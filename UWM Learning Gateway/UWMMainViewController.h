@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
 @interface UWMMainViewController : UIViewController
 - (IBAction)showCourses:(id)sender;
+- (IBAction)sendEmail:(id)sender;
 
 @end

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<array>
+		<string>UW Medicine Learning Gateway</string>
+		<string>UW Medicine Learning Management System(LMS)</string>
+		<string>UW Medicine</string>
+	</array>
+	<key>link</key>
+	<array>
+		<string>https://depts.washington.edu/lgateway/</string>
+		<string>http://lms.uwmedicine.org/</string>
+		<string>http://www.uwmedicine.org/</string>
+	</array>
+</dict>
+</plist>

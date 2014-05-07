@@ -9,7 +9,7 @@
 #import "UWMMainViewController.h"
 #import "UWMCoursesViewController.h"
 
-@interface UWMMainViewController ()
+@interface UWMMainViewController () <MFMailComposeViewControllerDelegate>
 
 @end
 
@@ -50,6 +50,27 @@
 - (IBAction)showCourses:(id)sender {
     UWMCoursesViewController *coursesviewController = [[UWMCoursesViewController alloc] initWithNibName:@"UWMCoursesViewController" bundle:nil];
     [self presentViewController:coursesviewController animated:YES completion:nil];
+}
+
+- (IBAction)sendEmail:(id)sender {
+    NSLog(@"sender %@",[sender description]);
+    
+    
+    NSString *iOSVersion = [[UIDevice currentDevice] systemVersion];
+    NSString *model = [[UIDevice currentDevice] model];
+    MFMailComposeViewController *mailComposer = [[MFMailComposeViewController alloc] init];
+    mailComposer.mailComposeDelegate = self;
+    [mailComposer setToRecipients:[NSArray arrayWithObjects: @"lgateway@uw.edu",nil]];
+    [mailComposer setSubject:[NSString stringWithFormat: @"UWM Learning Gateway Mobile App Feedback"]];
+    NSString *supportText = [NSString stringWithFormat:@"Device: %@\niOS Version:%@\n\n",model,iOSVersion];
+    supportText = [supportText stringByAppendingString: @"Please describe your problem or question."];
+    [mailComposer setMessageBody:supportText isHTML:NO];
+    [self presentViewController:mailComposer animated:YES completion:nil];
+    
+}
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
