@@ -16,12 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Learning Gateway" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdv-ug-zYz">
-                                <rect key="frame" x="43" y="180" width="235" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1y-wf-p41">
                                 <rect key="frame" x="37" y="313" width="240" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -71,7 +65,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lglogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="XcS-Fo-19c">
-                                <rect key="frame" x="35" y="55" width="250" height="69"/>
+                                <rect key="frame" x="27" y="131" width="250" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -83,7 +77,6 @@
                         <outlet property="courseButton" destination="l1y-wf-p41" id="mjm-4Z-OCO"/>
                         <outlet property="feedbackButton" destination="gsu-Pu-KME" id="1pc-1O-gX7"/>
                         <outlet property="quicklinksButton" destination="c6a-wb-nOj" id="NMM-zS-1Gg"/>
-                        <outlet property="welcomeLabel" destination="Zdv-ug-zYz" id="fwX-1i-Vvq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZW6-ng-I1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
