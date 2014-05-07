@@ -27,7 +27,7 @@
 
 - (void)viewDidLoad
 {
-    
+    self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
     self.navigationItem.title = @"Learning Gateway Courses";
     //get the plists and parse the data into ViewController
     

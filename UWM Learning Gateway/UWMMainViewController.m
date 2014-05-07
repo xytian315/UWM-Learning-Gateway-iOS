@@ -28,16 +28,25 @@
 
 - (void)viewDidLoad
 {
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pattern.jpg"]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.courseButton warningStyle];
-     [self.courseButton addAwesomeIcon:FAIconStar beforeTitle:YES];
     [self.aboutUSButton warningStyle];
     [self.quicklinksButton warningStyle];
     [self.feedbackButton warningStyle];
-    [self.aboutUSButton addAwesomeIcon:FAIconDownloadAlt  beforeTitle:YES];
-     [self.quicklinksButton addAwesomeIcon:FAIconDownloadAlt  beforeTitle:YES];
-     [self.feedbackButton addAwesomeIcon:FAIconDownloadAlt  beforeTitle:YES];
+    
+//    self.courseButton.frame = CGRectMake(0, 0, 60, 40);
+//    FIIcon *icon = [FIEntypoIcon leafIcon];
+//    
+//    FIIconLayer *layer = [FIIconLayer new];
+//    layer.icon = icon;
+//    layer.frame = self.courseButton.bounds;
+//    layer.iconColor = [UIColor orangeColor];
+//    [self.courseButton.layer addSublayer:layer];
+//  
+//    
+  
 }
 
 - (void)didReceiveMemoryWarning

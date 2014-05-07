@@ -8,13 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
+#import "UIButton+Bootstrap.h"
+#import "FontasticIcons.h"
 
 @interface UWMMainViewController : UIViewController
 - (IBAction)showCourses:(id)sender;
 - (IBAction)sendEmail:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *courseButton;
-@property (weak, nonatomic) IBOutlet UIButton *aboutUSButton;
-@property (weak, nonatomic) IBOutlet UIButton *quicklinksButton;
+@property (strong, nonatomic) IBOutlet UIButton *courseButton;
+@property (strong, nonatomic) IBOutlet UIButton *aboutUSButton;
+@property (strong, nonatomic) IBOutlet UIButton *quicklinksButton;
 
-@property (weak, nonatomic) IBOutlet UIButton *feedbackButton;
+@property (strong, nonatomic) IBOutlet UIButton *feedbackButton;
+
+@property (strong, nonatomic) IBOutlet UILabel *welcomeLabel;
+
+
 @end

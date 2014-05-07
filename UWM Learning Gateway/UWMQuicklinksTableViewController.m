@@ -8,6 +8,7 @@
 
 #import "UWMQuicklinksTableViewController.h"
 
+
 @interface UWMQuicklinksTableViewController ()
 
 @end
@@ -27,12 +28,13 @@
 - (void)viewDidLoad
 {
     self.navigationItem.title = @"Quicklinks";
+     self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
     self.linksData = [NSDictionary dictionaryWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"Quicklinks" ofType: @"plist"]];
     linksContent = [linksData objectForKey:@"link"];
     linksTitle = [linksData objectForKey:@"title"];
-    
+
     [super viewDidLoad];
-    
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

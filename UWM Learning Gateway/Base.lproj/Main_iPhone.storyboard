@@ -17,25 +17,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Learning Gateway" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdv-ug-zYz">
-                                <rect key="frame" x="38" y="72" width="235" height="21"/>
+                                <rect key="frame" x="43" y="180" width="235" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X5v-7P-r2f">
-                                <rect key="frame" x="40" y="115" width="240" height="167"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">The Learning Gateway group develops and provides access to eLearning (online training) on topics related to: Patient Safety, Federal/State requirements, ACGME competencies, and Hospital requirements, for residents, clinical fellows and attending physicians at UW Medicine.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1y-wf-p41">
-                                <rect key="frame" x="14" y="384" width="120" height="40"/>
+                                <rect key="frame" x="37" y="313" width="240" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Courses">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showCourses:" destination="gHH-ba-vKr" eventType="touchUpInside" id="WLY-25-1ye"/>
@@ -43,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dI9-i2-EPn">
-                                <rect key="frame" x="160" y="386" width="120" height="35"/>
+                                <rect key="frame" x="37" y="426" width="240" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="About us">
@@ -52,7 +44,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsu-Pu-KME">
-                                <rect key="frame" x="160" y="441" width="120" height="40"/>
+                                <rect key="frame" x="37" y="479" width="240" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Feedback">
@@ -64,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6a-wb-nOj">
-                                <rect key="frame" x="20" y="441" width="120" height="40"/>
+                                <rect key="frame" x="37" y="368" width="240" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Quicklinks">
@@ -75,6 +67,10 @@
                                     <segue destination="LVF-4I-Dlq" kind="modal" id="pkK-FT-8XP"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lglogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="XcS-Fo-19c">
+                                <rect key="frame" x="35" y="55" width="250" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -82,8 +78,9 @@
                     <connections>
                         <outlet property="aboutUSButton" destination="dI9-i2-EPn" id="1aK-Gp-gcd"/>
                         <outlet property="courseButton" destination="l1y-wf-p41" id="mjm-4Z-OCO"/>
-                        <outlet property="feedbackButton" destination="gsu-Pu-KME" id="kx0-nJ-oE1"/>
+                        <outlet property="feedbackButton" destination="gsu-Pu-KME" id="1pc-1O-gX7"/>
                         <outlet property="quicklinksButton" destination="c6a-wb-nOj" id="NMM-zS-1Gg"/>
+                        <outlet property="welcomeLabel" destination="Zdv-ug-zYz" id="fwX-1i-Vvq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZW6-ng-I1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -136,6 +133,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="homeButton" destination="cBN-MM-LkR" id="XL6-KF-3um"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1w6-6A-epP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -221,7 +221,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="AYK-Rf-siv">
-                        <barButtonItem key="leftBarButtonItem" title="Home" id="KbA-hk-cD0">
+                        <barButtonItem key="leftBarButtonItem" title="Home" style="done" id="KbA-hk-cD0">
+                            <color key="tintColor" red="0.031372550870000002" green="0.50196081400000003" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
                             <connections>
                                 <segue destination="gHH-ba-vKr" kind="modal" id="LpO-gQ-eT2"/>
                             </connections>
@@ -294,11 +295,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghi-ce-in8">
-                                <rect key="frame" x="38" y="251" width="97" height="21"/>
+                                <rect key="frame" x="38" y="345" width="97" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hri-bs-Dw3">
+                                <rect key="frame" x="38" y="387" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </mapView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="UNI-lg-SdW">
+                                <rect key="frame" x="38" y="40" width="235" height="284"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -327,6 +337,9 @@
             <point key="canvasLocation" x="1114" y="1243"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lglogo.png" width="228" height="77"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
