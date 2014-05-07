@@ -226,22 +226,22 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="AYK-Rf-siv">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="jhg-Fb-pfQ">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EXS-OB-sSr">
-                                <rect key="frame" x="16" y="5" width="71" height="33"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="6PQ-xo-rLn">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="53Q-km-t1P">
+                                <rect key="frame" x="16" y="5" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Home">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gHH-ba-vKr" kind="modal" id="wUa-in-lHY"/>
+                                    <segue destination="gHH-ba-vKr" kind="modal" id="zSE-Xn-eM2"/>
                                 </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="activeCourseTableView" destination="UB8-fr-FYA" id="cYO-RL-lzE"/>
-                        <outlet property="homeButton" destination="EXS-OB-sSr" id="UOi-Tu-LF3"/>
+                        <outlet property="homeButton" destination="53Q-km-t1P" id="hYZ-f9-gVr"/>
                         <outlet property="segmentedControl" destination="PrB-zK-bcJ" id="n2z-5O-1jF"/>
                     </connections>
                 </viewController>
@@ -261,7 +261,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WHX-E0-bls">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHX-E0-bls">
                                 <rect key="frame" x="0.0" y="66" width="320" height="502"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -279,7 +279,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2786" y="1232"/>
+            <point key="canvasLocation" x="2734" y="1243"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="qdG-Re-HDO">
@@ -435,6 +435,6 @@ A team of dedicated professionals who work with content experts to deliver and a
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="wUa-in-lHY"/>
+        <segue reference="zSE-Xn-eM2"/>
     </inferredMetricsTieBreakers>
 </document>
