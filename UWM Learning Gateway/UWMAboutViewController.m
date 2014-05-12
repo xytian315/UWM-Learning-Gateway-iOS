@@ -54,7 +54,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 3;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -62,19 +62,14 @@
     //return _objects.count;
     
    if (section == 0) {
-        return 3;
-    }else if(section == 1){
-        return 4;
+        return 6;
     }
     return 0;
     
 }
 
 -(NSString *)tableView:(UITableView*) tableView titleForHeaderInSection:(NSInteger)section{
-   if (section == 0) {
-        return @"Learning Gateway Operations";
-    }else if(section ==1)
-        return @"Learning Gateway Committee";
+
     return nil;
 }
 
@@ -88,28 +83,23 @@
     
    if (indexPath.section == 0) {
         if(indexPath.row==0){
-            cell.textLabel.text = @"Simona Lazar";
-            cell.detailTextLabel.text = @"Director";
+            cell.textLabel.text = @"Instructional Design";
+            cell.detailTextLabel.text = @"Adult education, user experience design";
         }  else if(indexPath.row==1){
-            cell.textLabel.text = @"Caleb Pong";
-            cell.detailTextLabel.text = @"Sr. eLearning/LMS Analyst";
+            cell.textLabel.text = @"eLearning Development";
+            cell.detailTextLabel.text = @"Web development, Storyline, Lectora";
         } else if(indexPath.row ==2){
-            cell.textLabel.text = @"Brian Valentine";
-            cell.detailTextLabel.text = @"eLearning/Web Developer";
-        }
-    }else if (indexPath.section == 1) {
-        if(indexPath.row==0){
-            cell.textLabel.text = @"Gene Peterson";
-            cell.detailTextLabel.text = @"Associate Medical Director, Center for Clinical Excellence";
-        }  else if(indexPath.row==1){
-            cell.textLabel.text = @"Byron Joyner";
-            cell.detailTextLabel.text = @"Associate Dean for Graduate Medical Education";
-        } else if(indexPath.row ==2){
-            cell.textLabel.text = @"Amity Neumeister";
-            cell.detailTextLabel.text = @"Assistant Dean and Director of Graduate Medical Education";
+            cell.textLabel.text = @"eLearning Publishing";
+            cell.detailTextLabel.text = @"LMS (SCORM) and web (standard)";
         }else if(indexPath.row ==3){
-            cell.textLabel.text = @"Susan Johnston";
-            cell.detailTextLabel.text = @"Director of Education, Graduate Medical Education";
+            cell.textLabel.text = @"Project Management";
+            cell.detailTextLabel.text = @"Project intake, planning and tracking";
+        }else if(indexPath.row ==4){
+            cell.textLabel.text = @"LMS Domain Administration";
+            cell.detailTextLabel.text = @"UW Medicine LMS platform";
+        }else if(indexPath.row ==5){
+            cell.textLabel.text = @"Technical Support";
+            cell.detailTextLabel.text = @"Tier 2 and Tier 3 support ";
         }
     }
 

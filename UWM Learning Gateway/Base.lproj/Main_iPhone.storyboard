@@ -17,15 +17,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1y-wf-p41">
-                                <rect key="frame" x="37" y="313" width="240" height="40"/>
+                                <rect key="frame" x="37" y="358" width="240" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Courses">
+                                <state key="normal" title="eLearning Modules">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showCourses:" destination="gHH-ba-vKr" eventType="touchUpInside" id="WLY-25-1ye"/>
-                                    <segue destination="sR3-qR-Ul6" kind="modal" id="tPo-37-mm9"/>
+                                    <segue destination="sR3-qR-Ul6" kind="modal" id="crr-C0-dMG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dI9-i2-EPn">
@@ -44,24 +44,12 @@
                                 <rect key="frame" x="37" y="479" width="240" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Feedback">
+                                <state key="normal" title="Contact us">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="sendEmail:" destination="gHH-ba-vKr" eventType="touchUpInside" id="9Fp-cq-k25"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6a-wb-nOj">
-                                <rect key="frame" x="37" y="368" width="240" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Quicklinks">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="LVF-4I-Dlq" kind="modal" id="pkK-FT-8XP"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lglogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="XcS-Fo-19c">
@@ -76,88 +64,11 @@
                         <outlet property="aboutUSButton" destination="dI9-i2-EPn" id="1aK-Gp-gcd"/>
                         <outlet property="courseButton" destination="l1y-wf-p41" id="mjm-4Z-OCO"/>
                         <outlet property="feedbackButton" destination="gsu-Pu-KME" id="1pc-1O-gX7"/>
-                        <outlet property="quicklinksButton" destination="c6a-wb-nOj" id="NMM-zS-1Gg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZW6-ng-I1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="216" y="1078"/>
-        </scene>
-        <!--Quicklinks Table View Controller - Root View Controller-->
-        <scene sceneID="e1n-Ez-smw">
-            <objects>
-                <tableViewController id="dzY-wj-pNI" customClass="UWMQuicklinksTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="d0B-ye-0FY">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LinkCell" textLabel="JJZ-jn-2kg" detailTextLabel="5yG-Rm-zHj" style="IBUITableViewCellStyleSubtitle" id="tpO-iW-bwq">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tpO-iW-bwq" id="eBr-Je-2Lr">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JJZ-jn-2kg">
-                                            <rect key="frame" x="15" y="3" width="34" height="22"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5yG-Rm-zHj">
-                                            <rect key="frame" x="15" y="25" width="43" height="15"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="dzY-wj-pNI" id="6eB-VV-OmA"/>
-                            <outlet property="delegate" destination="dzY-wj-pNI" id="wNN-Jr-otv"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="P3i-6N-ihk">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="oiS-0A-KMz">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9xT-U3-Tzi">
-                                <rect key="frame" x="16" y="5" width="71" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Home">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="gHH-ba-vKr" kind="modal" id="JQN-oO-8PF"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="homeButton" destination="9xT-U3-Tzi" id="Cen-4c-BJL"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1w6-6A-epP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="393" y="122"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Lkd-4c-1Kl">
-            <objects>
-                <navigationController definesPresentationContext="YES" id="LVF-4I-Dlq" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iwf-qh-rBf">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="dzY-wj-pNI" kind="relationship" relationship="rootViewController" id="o60-XY-322"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fLI-oM-z1j" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1125" y="480"/>
+            <point key="canvasLocation" x="-28" y="1170"/>
         </scene>
         <!--Courses View Controller - Item 2-->
         <scene sceneID="B3n-QI-Qan">
@@ -185,7 +96,7 @@
                                 </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="UB8-fr-FYA">
-                                <rect key="frame" x="0.0" y="113" width="320" height="455"/>
+                                <rect key="frame" x="0.0" y="113" width="320" height="405"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -225,6 +136,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="Q6q-ZU-Vka"/>
                     <navigationItem key="navigationItem" title="Title" id="AYK-Rf-siv">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="6PQ-xo-rLn">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="53Q-km-t1P">
@@ -247,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1YL-Vd-D8K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2126" y="1243"/>
+            <point key="canvasLocation" x="1816" y="1087"/>
         </scene>
         <!--Detail View Controller - Detail-->
         <scene sceneID="Cn3-H9-jdl">
@@ -279,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2734" y="1243"/>
+            <point key="canvasLocation" x="2438" y="1087"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="qdG-Re-HDO">
@@ -309,27 +221,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mjs-8a-NQv">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mjs-8a-NQv">
                                 <rect key="frame" x="0.0" y="99" width="320" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Learning Gateway – the Curriculum
-The Learning Gateway (LG) is a collection of online training modules designed to improve patient safety and enhance the quality of care throughout UW Medicine. These modules are part of the Learning Management System (LMS) and are used by residents, clinical fellows, and attending practitioners.
-
-Learning Gateway – the Team
-A team of dedicated professionals who work with content experts to deliver and administer both required and recommended training. The principles of instructional design and adult learning are used to enrich existing content and define new needs. Requirements analysis, project management, and technical support also are involved in the overall process.</string>
-                                        <attributes>
-                                            <font key="NSFont" size="9" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <string key="text">The Learning Gateway group develops and provides access to eLearning on topics related to: Patient Safety, Federal/State requirements, ACGME competencies, and Hospital requirements, for residents, clinical fellows and attending physicians at UW Medicine.
+</string>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="XuY-tC-fCs">
-                                <rect key="frame" x="0.0" y="294" width="320" height="284"/>
+                                <rect key="frame" x="0.0" y="294" width="320" height="224"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -366,6 +269,7 @@ A team of dedicated professionals who work with content experts to deliver and a
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="topRated" id="fIx-ml-b1S"/>
                     <navigationItem key="navigationItem" id="ZJ1-bx-ibh">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="RAr-uk-LxL">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iy6-yQ-41E">
@@ -386,12 +290,13 @@ A team of dedicated professionals who work with content experts to deliver and a
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i7x-R9-kfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1228" y="1769"/>
+            <point key="canvasLocation" x="1326" y="2317"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Item-->
         <scene sceneID="nOF-Mz-GPi">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sR3-qR-Ul6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ZJo-uo-XtX"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="spS-xF-c5t"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KGT-gG-2c4">
@@ -405,12 +310,13 @@ A team of dedicated professionals who work with content experts to deliver and a
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVK-KE-YfL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1640" y="1243"/>
+            <point key="canvasLocation" x="612" y="616"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Item-->
         <scene sceneID="lxO-o5-fFU">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5UQ-ut-lbb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="RUd-nf-w3J"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="b2S-Wr-NoW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -418,12 +324,12 @@ A team of dedicated professionals who work with content experts to deliver and a
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="oYi-uW-ujo" kind="relationship" relationship="rootViewController" id="Ms8-LR-ZeN"/>
+                        <segue destination="oYi-uW-ujo" kind="relationship" relationship="rootViewController" id="rAS-us-aDI"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ds-R3-Hpw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="702" y="1769"/>
+            <point key="canvasLocation" x="740" y="2317"/>
         </scene>
     </scenes>
     <resources>

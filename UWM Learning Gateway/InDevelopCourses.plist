@@ -5,6 +5,10 @@
 	<dict>
 		<key>courses</key>
 		<dict>
+			<key>courseLength</key>
+			<array>
+				<integer>15</integer>
+			</array>
 			<key>courseTitle</key>
 			<array>
 				<string>Antimicrobial Stewardship</string>
