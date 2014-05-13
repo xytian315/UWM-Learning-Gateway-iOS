@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 440D14F21918ADA3007D4179 /* InDevelopCourses.plist */; };
+		443989571922997D00BB40AD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 443989561922997D00BB40AD /* background.png */; };
 		443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */; };
 		449400EC1919ED87001DB0A7 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 449400E91919ED87001DB0A7 /* UIButton+Bootstrap.m */; };
 		449400EE191A01F5001DB0A7 /* lglogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 449400ED191A01F5001DB0A7 /* lglogo.png */; };
@@ -56,7 +57,6 @@
 		44FA47FF1919A69E00406D38 /* UWMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FA47FE1919A69E00406D38 /* UWMMainViewController.m */; };
 		44FA48011919A70800406D38 /* Quicklinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44FA48001919A70800406D38 /* Quicklinks.plist */; };
 		44FA48031919B07B00406D38 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FA48021919B07B00406D38 /* MessageUI.framework */; };
-		44FE8CA9191ACB9900F1A488 /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44FE8CA8191ACB9900F1A488 /* pattern.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +71,7 @@
 
 /* Begin PBXFileReference section */
 		440D14F21918ADA3007D4179 /* InDevelopCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InDevelopCourses.plist; sourceTree = "<group>"; };
+		443989561922997D00BB40AD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMCoursesViewController.h; sourceTree = "<group>"; };
 		443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMCoursesViewController.m; sourceTree = "<group>"; };
 		449400E81919ED87001DB0A7 /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
@@ -149,7 +150,6 @@
 		44FA47FE1919A69E00406D38 /* UWMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMMainViewController.m; sourceTree = "<group>"; };
 		44FA48001919A70800406D38 /* Quicklinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Quicklinks.plist; sourceTree = "<group>"; };
 		44FA48021919B07B00406D38 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		44FE8CA8191ACB9900F1A488 /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpg; sourceTree = "<group>"; };
 		44FE8CAA191AD2AE00F1A488 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -304,9 +304,9 @@
 				44AE55CB191AA7FA00D342FC /* UWMAboutViewController.m */,
 				44CF966B191202D0006D97D7 /* UWMAppDelegate.h */,
 				44CF966C191202D0006D97D7 /* UWMAppDelegate.m */,
-				44FE8CA8191ACB9900F1A488 /* pattern.jpg */,
 				44FA47FA1919A5F900406D38 /* UWMQuicklinksTableViewController.h */,
 				44FA47FB1919A5F900406D38 /* UWMQuicklinksTableViewController.m */,
+				443989561922997D00BB40AD /* background.png */,
 				44FA47FE1919A69E00406D38 /* UWMMainViewController.m */,
 				44FA47FD1919A69300406D38 /* UWMMainViewController.h */,
 				443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */,
@@ -431,13 +431,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CF969819120336006D97D7 /* ActiveCourses.plist in Resources */,
-				44FE8CA9191ACB9900F1A488 /* pattern.jpg in Resources */,
 				44940161191A0A81001DB0A7 /* FontAwesomeRegular+Deprecation.strings in Resources */,
 				449400EE191A01F5001DB0A7 /* lglogo.png in Resources */,
 				44CF9673191202D0006D97D7 /* Main_iPad.storyboard in Resources */,
 				4494015D191A0A81001DB0A7 /* fontawesome.ttf in Resources */,
 				44FA48011919A70800406D38 /* Quicklinks.plist in Resources */,
 				440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */,
+				443989571922997D00BB40AD /* background.png in Resources */,
 				44940160191A0A81001DB0A7 /* EntypoSocial.strings in Resources */,
 				4494015C191A0A81001DB0A7 /* Entypo.otf in Resources */,
 				4494015E191A0A81001DB0A7 /* iconic.otf in Resources */,
