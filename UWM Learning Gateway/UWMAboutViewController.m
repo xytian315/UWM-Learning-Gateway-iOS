@@ -7,7 +7,7 @@
 //
 
 #import "UWMAboutViewController.h"
-#import "UIButton+Bootstrap.h"
+
 
 @interface UWMAboutViewController ()<UITableViewDataSource, UITableViewDelegate>
 

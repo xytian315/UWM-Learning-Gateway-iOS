@@ -8,7 +8,7 @@
 
 #import "UWMCoursesViewController.h"
 #import "UWMDetailViewController.h"
-#import "UIButton+Bootstrap.h"
+
 
 @interface UWMCoursesViewController ()<UITableViewDataSource, UITableViewDelegate>
 

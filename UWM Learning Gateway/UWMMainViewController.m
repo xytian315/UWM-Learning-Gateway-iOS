@@ -8,8 +8,7 @@
 
 #import "UWMMainViewController.h"
 #import "UWMCoursesViewController.h"
-#import "UIButton+Bootstrap.h"
-#import "NSString+FontAwesome.h"
+
 
 
 @interface UWMMainViewController () <MFMailComposeViewControllerDelegate>

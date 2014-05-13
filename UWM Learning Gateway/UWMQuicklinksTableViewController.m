@@ -7,7 +7,7 @@
 //
 
 #import "UWMQuicklinksTableViewController.h"
-#import "UIButton+Bootstrap.h"
+
 
 
 @interface UWMQuicklinksTableViewController ()
@@ -33,7 +33,7 @@
     self.linksData = [NSDictionary dictionaryWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"Quicklinks" ofType: @"plist"]];
     linksContent = [linksData objectForKey:@"link"];
     linksTitle = [linksData objectForKey:@"title"];
-    [self.homeButton warningStyle];
+   // [self.homeButton warningStyle];
     [super viewDidLoad];
 
     // Uncomment the following line to preserve selection between presentations.

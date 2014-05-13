@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
-#import "UIButton+Bootstrap.h"
-#import "FontasticIcons.h"
+
 
 @interface UWMMainViewController : UIViewController
 - (IBAction)showCourses:(id)sender;
