@@ -29,7 +29,7 @@
 
 - (void)viewDidLoad
 {
-   //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+   self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
    // [self.courseButton warningStyle];

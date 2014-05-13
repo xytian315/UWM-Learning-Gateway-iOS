@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 440D14F21918ADA3007D4179 /* InDevelopCourses.plist */; };
-		443989571922997D00BB40AD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 443989561922997D00BB40AD /* background.png */; };
+		4439895B1922D2C900BB40AD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439895A1922D2C900BB40AD /* background.png */; };
 		443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */; };
 		449400EC1919ED87001DB0A7 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 449400E91919ED87001DB0A7 /* UIButton+Bootstrap.m */; };
 		449400EE191A01F5001DB0A7 /* lglogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 449400ED191A01F5001DB0A7 /* lglogo.png */; };
@@ -71,7 +71,7 @@
 
 /* Begin PBXFileReference section */
 		440D14F21918ADA3007D4179 /* InDevelopCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InDevelopCourses.plist; sourceTree = "<group>"; };
-		443989561922997D00BB40AD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		4439895A1922D2C900BB40AD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMCoursesViewController.h; sourceTree = "<group>"; };
 		443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMCoursesViewController.m; sourceTree = "<group>"; };
 		449400E81919ED87001DB0A7 /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
@@ -306,10 +306,10 @@
 				44CF966C191202D0006D97D7 /* UWMAppDelegate.m */,
 				44FA47FA1919A5F900406D38 /* UWMQuicklinksTableViewController.h */,
 				44FA47FB1919A5F900406D38 /* UWMQuicklinksTableViewController.m */,
-				443989561922997D00BB40AD /* background.png */,
 				44FA47FE1919A69E00406D38 /* UWMMainViewController.m */,
 				44FA47FD1919A69300406D38 /* UWMMainViewController.h */,
 				443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */,
+				4439895A1922D2C900BB40AD /* background.png */,
 				443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */,
 				44CF9671191202D0006D97D7 /* Main_iPad.storyboard */,
 				44CF9677191202D0006D97D7 /* UWMDetailViewController.h */,
@@ -437,7 +437,7 @@
 				4494015D191A0A81001DB0A7 /* fontawesome.ttf in Resources */,
 				44FA48011919A70800406D38 /* Quicklinks.plist in Resources */,
 				440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */,
-				443989571922997D00BB40AD /* background.png in Resources */,
+				4439895B1922D2C900BB40AD /* background.png in Resources */,
 				44940160191A0A81001DB0A7 /* EntypoSocial.strings in Resources */,
 				4494015C191A0A81001DB0A7 /* Entypo.otf in Resources */,
 				4494015E191A0A81001DB0A7 /* iconic.otf in Resources */,

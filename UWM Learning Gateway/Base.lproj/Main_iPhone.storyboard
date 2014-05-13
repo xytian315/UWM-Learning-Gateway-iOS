@@ -73,11 +73,11 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lglogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="XcS-Fo-19c">
-                                <rect key="frame" x="29" y="49" width="250" height="79"/>
+                                <rect key="frame" x="-38" y="109" width="386" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="210" translatesAutoresizingMaskIntoConstraints="NO" id="qLr-K1-XQU">
-                                <rect key="frame" x="43" y="188" width="210" height="63"/>
+                                <rect key="frame" x="50" y="209" width="210" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="eLearning for Residents and Attending Physicians">
@@ -189,7 +189,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="eLearning Modules" image="list-star-7" id="Q6q-ZU-Vka"/>
+                    <tabBarItem key="tabBarItem" title="eLearning Modules" image="coursesIcon" id="Q6q-ZU-Vka"/>
                     <navigationItem key="navigationItem" title="Title" id="AYK-Rf-siv">
                         <barButtonItem key="leftBarButtonItem" title="Item" style="plain" id="6PQ-xo-rLn">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="53Q-km-t1P">
@@ -323,7 +323,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About us" image="man" id="fIx-ml-b1S"/>
+                    <tabBarItem key="tabBarItem" title="About us" image="aboutIcon" id="fIx-ml-b1S"/>
                     <navigationItem key="navigationItem" id="ZJ1-bx-ibh">
                         <barButtonItem key="leftBarButtonItem" title="Home" style="plain" id="RAr-uk-LxL">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iy6-yQ-41E">
@@ -390,11 +390,11 @@
     </scenes>
     <resources>
         <image name="about3" width="720" height="720"/>
+        <image name="aboutIcon" width="53" height="35"/>
         <image name="contact3" width="720" height="720"/>
         <image name="courses3" width="720" height="720"/>
+        <image name="coursesIcon" width="40" height="32"/>
         <image name="lglogo.png" width="228" height="77"/>
-        <image name="list-star-7" width="30" height="30"/>
-        <image name="man" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
