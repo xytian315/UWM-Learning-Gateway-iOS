@@ -36,7 +36,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1y-wf-p41">
-                                <rect key="frame" x="37" y="358" width="240" height="40"/>
+                                <rect key="frame" x="40" y="360" width="240" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="eLearning Modules">
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dI9-i2-EPn">
-                                <rect key="frame" x="37" y="426" width="240" height="35"/>
+                                <rect key="frame" x="37" y="418" width="240" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="About us">
@@ -60,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsu-Pu-KME">
-                                <rect key="frame" x="37" y="479" width="240" height="40"/>
+                                <rect key="frame" x="40" y="476" width="240" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Contact us">
@@ -75,6 +75,20 @@
                                 <rect key="frame" x="27" y="131" width="250" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="210" translatesAutoresizingMaskIntoConstraints="NO" id="qLr-K1-XQU">
+                                <rect key="frame" x="47" y="232" width="210" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="eLearing for Residents and Attending Physicians">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -155,13 +169,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="Q6q-ZU-Vka"/>
+                    <tabBarItem key="tabBarItem" title="eLearning Modules" image="text-list" id="Q6q-ZU-Vka"/>
                     <navigationItem key="navigationItem" title="Title" id="AYK-Rf-siv">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="6PQ-xo-rLn">
+                        <barButtonItem key="leftBarButtonItem" image="home" style="plain" id="6PQ-xo-rLn">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="53Q-km-t1P">
-                                <rect key="frame" x="16" y="5" width="71" height="34"/>
+                                <rect key="frame" x="16" y="7" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Home">
+                                <state key="normal" title="Home" image="home">
+                                    <color key="titleColor" red="0.5" green="0.35545546659999999" blue="0.067046379000000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -212,7 +227,7 @@
             </objects>
             <point key="canvasLocation" x="1704" y="693"/>
         </scene>
-        <!--About View Controller-->
+        <!--About View Controller - About us-->
         <scene sceneID="qdG-Re-HDO">
             <objects>
                 <viewController id="oYi-uW-ujo" customClass="UWMAboutViewController" sceneMemberID="viewController">
@@ -288,14 +303,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="topRated" id="fIx-ml-b1S"/>
+                    <tabBarItem key="tabBarItem" title="About us" image="man" id="fIx-ml-b1S"/>
                     <navigationItem key="navigationItem" id="ZJ1-bx-ibh">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="RAr-uk-LxL">
+                        <barButtonItem key="leftBarButtonItem" title="Home" style="plain" id="RAr-uk-LxL">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iy6-yQ-41E">
-                                <rect key="frame" x="16" y="5" width="71" height="33"/>
+                                <rect key="frame" x="16" y="7" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Home">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Home" image="home">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.35545546661139671" blue="0.067046378998349254" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="gHH-ba-vKr" kind="modal" id="cCk-iM-sI0"/>
@@ -352,7 +369,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="home" width="30" height="30"/>
         <image name="lglogo.png" width="228" height="77"/>
+        <image name="man" width="30" height="30"/>
+        <image name="text-list" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

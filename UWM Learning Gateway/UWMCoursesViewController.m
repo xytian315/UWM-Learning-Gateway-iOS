@@ -28,7 +28,7 @@
 
 - (void)viewDidLoad
 {
-    [self.homeButton warningStyle];
+    //[self.homeButton warningStyle];
     //self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
     self.navigationItem.title = @"Courses";
     //get the plists and parse the data into ViewController

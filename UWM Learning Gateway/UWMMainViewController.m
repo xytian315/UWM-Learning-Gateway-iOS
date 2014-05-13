@@ -41,6 +41,9 @@
     [self.feedbackButton warningStyle];
    
     
+    
+    
+    
 //    self.courseButton.frame = CGRectMake(0, 0, 60, 40);
 //    FIIcon *icon = [FIEntypoIcon leafIcon];
 //    
@@ -85,9 +88,9 @@
     MFMailComposeViewController *mailComposer = [[MFMailComposeViewController alloc] init];
     mailComposer.mailComposeDelegate = self;
     [mailComposer setToRecipients:[NSArray arrayWithObjects: @"lgateway@uw.edu",nil]];
-    [mailComposer setSubject:[NSString stringWithFormat: @"UWM Learning Gateway Mobile App Feedback"]];
+    [mailComposer setSubject:[NSString stringWithFormat: @"Learning Gateway Mobile App"]];
     NSString *supportText = [NSString stringWithFormat:@"Device: %@\niOS Version:%@\n\n",model,iOSVersion];
-    supportText = [supportText stringByAppendingString: @"Please describe your problem or question."];
+    supportText = [supportText stringByAppendingString: @""];
     [mailComposer setMessageBody:supportText isHTML:NO];
     [self presentViewController:mailComposer animated:YES completion:nil];
     
