@@ -5,6 +5,10 @@
 	<dict>
 		<key>courses</key>
 		<dict>
+			<key>courseDescription</key>
+			<array>
+				<string>Coming Soon...</string>
+			</array>
 			<key>courseLength</key>
 			<array>
 				<integer>15</integer>

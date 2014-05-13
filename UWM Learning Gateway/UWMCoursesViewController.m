@@ -28,11 +28,12 @@
 
 - (void)viewDidLoad
 {
-    //[self.homeButton warningStyle];
-    //self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
-    self.navigationItem.title = @"Courses";
-    //get the plists and parse the data into ViewController
+ 
+    self.navigationItem.title = @"eLearning Modules";
+     self.navigationController.navigationBar.barTintColor =  [UIColor colorWithRed:249/255.0 green:247/255.0 blue:231/255.0 alpha:1];
     
+    //get the plists and parse the data into ViewController
+   
     
     self.coursesData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"ActiveCourses" ofType: @"plist"]];
 

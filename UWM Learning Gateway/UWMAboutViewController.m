@@ -28,7 +28,9 @@
 {
     //[self.homeButton warningStyle];
    // self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
-    self.navigationItem.title = @"About";
+    self.navigationItem.title = @"About us";
+     self.navigationController.navigationBar.barTintColor =  [UIColor colorWithRed:249/255.0 green:247/255.0 blue:231/255.0 alpha:1];
+    self.navigationController.navigationBar.TintColor = [UIColor colorWithRed:142/255.0 green:111/255.0 blue:12/255.0 alpha:1];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
