@@ -32,13 +32,13 @@
    // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pattern.jpg"]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.courseButton warningStyle];
+   // [self.courseButton warningStyle];
     //[self.courseButton addAwesomeIcon:FAIconBookmark beforeTitle:YES];
     
     
-    [self.aboutUSButton warningStyle];
-    [self.quicklinksButton warningStyle];
-    [self.feedbackButton warningStyle];
+//    [self.aboutUSButton warningStyle];
+//    [self.quicklinksButton warningStyle];
+//    [self.feedbackButton warningStyle];
    
     
     
