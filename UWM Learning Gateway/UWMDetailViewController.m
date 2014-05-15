@@ -44,7 +44,7 @@
 
 - (void)viewDidLoad
 {
-    self.navigationItem.title = @"eLearning Module";
+    self.navigationItem.title = @"";
     self.navigationController.navigationBar.TintColor = [UIColor colorWithRed:142/255.0 green:111/255.0 blue:12/255.0 alpha:1];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
