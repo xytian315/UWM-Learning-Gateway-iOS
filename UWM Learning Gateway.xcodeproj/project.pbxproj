@@ -10,7 +10,7 @@
 		440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 440D14F21918ADA3007D4179 /* InDevelopCourses.plist */; };
 		4439895B1922D2C900BB40AD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439895A1922D2C900BB40AD /* background.png */; };
 		443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */; };
-		449400EE191A01F5001DB0A7 /* lglogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 449400ED191A01F5001DB0A7 /* lglogo.png */; };
+		444810F6192474CA001A1D0D /* lglogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 444810F5192474CA001A1D0D /* lglogo1.png */; };
 		44AE55CC191AA7FA00D342FC /* UWMAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AE55CB191AA7FA00D342FC /* UWMAboutViewController.m */; };
 		44CF965D191202D0006D97D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965C191202D0006D97D7 /* Foundation.framework */; };
 		44CF965F191202D0006D97D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CF965E191202D0006D97D7 /* CoreGraphics.framework */; };
@@ -49,7 +49,7 @@
 		4439895A1922D2C900BB40AD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMCoursesViewController.h; sourceTree = "<group>"; };
 		443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMCoursesViewController.m; sourceTree = "<group>"; };
-		449400ED191A01F5001DB0A7 /* lglogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lglogo.png; sourceTree = "<group>"; };
+		444810F5192474CA001A1D0D /* lglogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lglogo1.png; sourceTree = "<group>"; };
 		44AE55CA191AA7FA00D342FC /* UWMAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMAboutViewController.h; sourceTree = "<group>"; };
 		44AE55CB191AA7FA00D342FC /* UWMAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMAboutViewController.m; sourceTree = "<group>"; };
 		44CF9659191202D0006D97D7 /* UWM Learning Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UWM Learning Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,7 @@
 				44CF9677191202D0006D97D7 /* UWMDetailViewController.h */,
 				44CF9678191202D0006D97D7 /* UWMDetailViewController.m */,
 				44CF967A191202D0006D97D7 /* Images.xcassets */,
-				449400ED191A01F5001DB0A7 /* lglogo.png */,
+				444810F5192474CA001A1D0D /* lglogo1.png */,
 				44CF9663191202D0006D97D7 /* Supporting Files */,
 			);
 			path = "UWM Learning Gateway";
@@ -272,11 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CF969819120336006D97D7 /* ActiveCourses.plist in Resources */,
-				449400EE191A01F5001DB0A7 /* lglogo.png in Resources */,
 				44CF9673191202D0006D97D7 /* Main_iPad.storyboard in Resources */,
 				44FA48011919A70800406D38 /* Quicklinks.plist in Resources */,
 				440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */,
 				4439895B1922D2C900BB40AD /* background.png in Resources */,
+				444810F6192474CA001A1D0D /* lglogo1.png in Resources */,
 				44CF967B191202D0006D97D7 /* Images.xcassets in Resources */,
 				44CF9670191202D0006D97D7 /* Main_iPhone.storyboard in Resources */,
 				44CF9667191202D0006D97D7 /* InfoPlist.strings in Resources */,
