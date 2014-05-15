@@ -102,9 +102,15 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
      if ([[segue identifier] isEqualToString:@"showModule"]) {
+        self.navigationItem.backBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"Home" style:UIBarButtonItemStylePlain target:nil action:nil];
+         
+//         UIImage *backButtonImage = [[UIImage imageNamed:@"BackButton.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 6)];
+//         [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+         
          [segue destinationViewController];
      }
     if ([[segue identifier] isEqualToString:@"showAbout"]) {
+        self.navigationItem.backBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"Home" style:UIBarButtonItemStylePlain target:nil action:nil];
         [segue destinationViewController];
     }
 }
