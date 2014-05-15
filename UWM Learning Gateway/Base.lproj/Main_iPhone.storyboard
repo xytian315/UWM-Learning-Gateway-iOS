@@ -239,24 +239,14 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="eLearning Modules" image="coursesIcon" id="Q6q-ZU-Vka"/>
                     <navigationItem key="navigationItem" title="Title" id="AYK-Rf-siv">
-                        <barButtonItem key="leftBarButtonItem" title="Item" style="plain" id="6PQ-xo-rLn">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="53Q-km-t1P">
-                                <rect key="frame" x="16" y="13" width="89" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="Home">
-                                    <color key="titleColor" red="0.5" green="0.35545546659999999" blue="0.067046379000000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="gHH-ba-vKr" kind="modal" id="zSE-Xn-eM2"/>
-                                </connections>
-                            </button>
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="HnG-QX-rng">
+                            <connections>
+                                <segue destination="gHH-ba-vKr" kind="modal" id="Y22-tb-Lrm"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="activeCourseTableView" destination="UB8-fr-FYA" id="cYO-RL-lzE"/>
-                        <outlet property="homeButton" destination="53Q-km-t1P" id="hYZ-f9-gVr"/>
                         <outlet property="segmentedControl" destination="PrB-zK-bcJ" id="n2z-5O-1jF"/>
                     </connections>
                 </viewController>
@@ -379,11 +369,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Learning Gateway" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Pg-5I-GMw">
-                                <rect key="frame" x="-2" y="66" width="324" height="30"/>
+                                <rect key="frame" x="-2" y="65" width="324" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.55387037630000002" green="0.41125271330000002" blue="0.091574983989999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="HOw-70-cIm"/>
+                                    <constraint firstAttribute="height" constant="30" id="po0-TA-0IS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -394,7 +384,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.55387037630000002" green="0.41125271330000002" blue="0.091574983989999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="pbs-5I-Xuf"/>
+                                    <constraint firstAttribute="height" constant="30" id="CLN-26-z1s"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -405,7 +395,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="rQm-g3-mIc"/>
+                                    <constraint firstAttribute="height" constant="120" id="bEq-NR-f4G"/>
                                 </constraints>
                                 <string key="text">The Learning Gateway group develops and provides access to eLearning on topics related to: Patient Safety, Federal/State requirements, ACGME competencies, and Hospital requirements, for residents, clinical fellows and attending physicians at UW Medicine.
 </string>
@@ -451,41 +441,29 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XuY-tC-fCs" firstAttribute="trailing" secondItem="mjs-8a-NQv" secondAttribute="trailing" id="LaJ-9r-Ket"/>
-                            <constraint firstItem="mjs-8a-NQv" firstAttribute="leading" secondItem="XuY-tC-fCs" secondAttribute="leading" id="Sk6-N5-3ff"/>
-                            <constraint firstItem="3Pg-5I-GMw" firstAttribute="leading" secondItem="4Hp-gy-Lxc" secondAttribute="leading" constant="-2" id="SsO-V4-mUU"/>
-                            <constraint firstItem="XuY-tC-fCs" firstAttribute="top" secondItem="4XK-pU-R1B" secondAttribute="bottom" constant="8" symbolic="YES" id="WHY-VP-zRX"/>
-                            <constraint firstItem="4XK-pU-R1B" firstAttribute="top" secondItem="mjs-8a-NQv" secondAttribute="bottom" constant="8" symbolic="YES" id="aQJ-fU-Dh8"/>
-                            <constraint firstItem="mjs-8a-NQv" firstAttribute="top" secondItem="3Pg-5I-GMw" secondAttribute="bottom" constant="3" id="bgF-HE-d0X"/>
-                            <constraint firstItem="3Pg-5I-GMw" firstAttribute="trailing" secondItem="4XK-pU-R1B" secondAttribute="trailing" id="dhH-yU-sNr"/>
-                            <constraint firstAttribute="trailing" secondItem="mjs-8a-NQv" secondAttribute="trailing" id="eYy-xt-KKm"/>
-                            <constraint firstItem="3Pg-5I-GMw" firstAttribute="centerX" secondItem="mjs-8a-NQv" secondAttribute="centerX" id="eoR-yg-zuP"/>
-                            <constraint firstItem="4XK-pU-R1B" firstAttribute="leading" secondItem="3Pg-5I-GMw" secondAttribute="leading" id="ila-0z-Bna"/>
-                            <constraint firstItem="XuY-tC-fCs" firstAttribute="leading" secondItem="4Hp-gy-Lxc" secondAttribute="leading" id="jE1-P9-QA3"/>
-                            <constraint firstItem="N7e-lg-UCv" firstAttribute="top" secondItem="XuY-tC-fCs" secondAttribute="bottom" constant="3" id="qTy-6r-iMR"/>
-                            <constraint firstItem="3Pg-5I-GMw" firstAttribute="top" secondItem="Bxn-9V-Yl0" secondAttribute="bottom" constant="2" id="x2p-dy-G1w"/>
+                            <constraint firstItem="4XK-pU-R1B" firstAttribute="top" secondItem="mjs-8a-NQv" secondAttribute="bottom" constant="8" symbolic="YES" id="6Va-Kj-KFh"/>
+                            <constraint firstItem="mjs-8a-NQv" firstAttribute="trailing" secondItem="XuY-tC-fCs" secondAttribute="trailing" id="8rM-5q-b8m"/>
+                            <constraint firstItem="3Pg-5I-GMw" firstAttribute="top" secondItem="Bxn-9V-Yl0" secondAttribute="bottom" constant="1" id="B0y-vm-PNa"/>
+                            <constraint firstAttribute="trailing" secondItem="mjs-8a-NQv" secondAttribute="trailing" id="BdJ-9m-afd"/>
+                            <constraint firstItem="N7e-lg-UCv" firstAttribute="top" secondItem="XuY-tC-fCs" secondAttribute="bottom" constant="3" id="JaH-48-crN"/>
+                            <constraint firstItem="XuY-tC-fCs" firstAttribute="top" secondItem="4XK-pU-R1B" secondAttribute="bottom" constant="8" symbolic="YES" id="Oyb-9D-hVV"/>
+                            <constraint firstItem="3Pg-5I-GMw" firstAttribute="leading" secondItem="4Hp-gy-Lxc" secondAttribute="leading" constant="-2" id="RAQ-SI-WMw"/>
+                            <constraint firstItem="3Pg-5I-GMw" firstAttribute="trailing" secondItem="4XK-pU-R1B" secondAttribute="trailing" id="VjZ-nT-xZI"/>
+                            <constraint firstItem="XuY-tC-fCs" firstAttribute="leading" secondItem="4Hp-gy-Lxc" secondAttribute="leading" id="Wux-Gk-Mn6"/>
+                            <constraint firstItem="mjs-8a-NQv" firstAttribute="centerX" secondItem="3Pg-5I-GMw" secondAttribute="centerX" id="Ztf-EC-tnC"/>
+                            <constraint firstItem="4XK-pU-R1B" firstAttribute="leading" secondItem="3Pg-5I-GMw" secondAttribute="leading" id="c8N-Mr-8ww"/>
+                            <constraint firstItem="XuY-tC-fCs" firstAttribute="leading" secondItem="mjs-8a-NQv" secondAttribute="leading" id="gCG-6X-g5L"/>
+                            <constraint firstItem="mjs-8a-NQv" firstAttribute="top" secondItem="3Pg-5I-GMw" secondAttribute="bottom" constant="4" id="jBa-C3-RDU"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About us" image="aboutIcon" id="fIx-ml-b1S"/>
                     <navigationItem key="navigationItem" id="ZJ1-bx-ibh">
-                        <barButtonItem key="leftBarButtonItem" title="Home" style="plain" id="RAr-uk-LxL">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iy6-yQ-41E">
-                                <rect key="frame" x="16" y="7" width="79" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="Home">
-                                    <color key="titleColor" red="0.61824898100000003" green="0.52277500190000004" blue="0.169013151" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.35545546661139671" blue="0.067046378998349254" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="gHH-ba-vKr" kind="modal" id="cCk-iM-sI0"/>
-                                </connections>
-                            </button>
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="SA4-kD-hC7">
+                            <connections>
+                                <segue destination="gHH-ba-vKr" kind="modal" id="d5i-YY-Z8M"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="homeButton" destination="iy6-yQ-41E" id="ue9-15-9n5"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i7x-R9-kfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -547,6 +525,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="zzL-mm-yS6"/>
-        <segue reference="cCk-iM-sI0"/>
+        <segue reference="d5i-YY-Z8M"/>
     </inferredMetricsTieBreakers>
 </document>
