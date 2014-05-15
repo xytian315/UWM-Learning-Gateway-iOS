@@ -8,7 +8,7 @@
 
 #import "UWMMainViewController.h"
 #import "UWMCoursesViewController.h"
-
+#import "UWMAboutViewController.h"
 
 
 @interface UWMMainViewController () <MFMailComposeViewControllerDelegate>
@@ -28,6 +28,9 @@
 
 - (void)viewDidLoad
 {
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+   // self.navigationController.navigationBar.barTintColor =  [UIColor colorWithRed:249/255.0 green:247/255.0 blue:231/255.0 alpha:1];
+   // [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"background.png"] forBarMetrics:UIBarMetricsDefault];
    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -73,10 +76,8 @@
 }
 */
 
-- (IBAction)showCourses:(id)sender {
-    UWMCoursesViewController *coursesviewController = [[UWMCoursesViewController alloc] initWithNibName:@"UWMCoursesViewController" bundle:nil];
-    [self presentViewController:coursesviewController animated:YES completion:nil];
-}
+
+
 
 - (IBAction)sendEmail:(id)sender {
     NSLog(@"sender %@",[sender description]);
@@ -99,5 +100,12 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+     if ([[segue identifier] isEqualToString:@"showModule"]) {
+         [segue destinationViewController];
+     }
+    if ([[segue identifier] isEqualToString:@"showAbout"]) {
+        [segue destinationViewController];
+    }
+}
 @end

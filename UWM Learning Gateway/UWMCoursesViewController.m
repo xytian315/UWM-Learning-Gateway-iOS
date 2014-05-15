@@ -29,10 +29,19 @@
 - (void)viewDidLoad
 {
  
+      [[self navigationController] setNavigationBarHidden:NO animated:YES];
     self.navigationItem.title = @"eLearning Modules";
    
     self.navigationController.navigationBar.barTintColor =  [UIColor colorWithRed:249/255.0 green:247/255.0 blue:231/255.0 alpha:1];
     self.navigationController.navigationBar.TintColor = [UIColor colorWithRed:142/255.0 green:111/255.0 blue:12/255.0 alpha:1];
+//    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"home.png"]];
+//    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"home.png"]];
+
+    
+//    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:[UIImage imageNamed:@"home.png"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+//    UIImage *backButtonImage = [[UIImage imageNamed:@"home.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 6)];
+//    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
     
     //get the plists and parse the data into ViewController
    

@@ -26,6 +26,7 @@
 
 - (void)viewDidLoad
 {
+      [[self navigationController] setNavigationBarHidden:NO animated:YES];
     //[self.homeButton warningStyle];
    // self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
     self.navigationItem.title = @"About us";

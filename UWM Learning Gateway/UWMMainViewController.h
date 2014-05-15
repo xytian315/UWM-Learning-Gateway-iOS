@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
-
+@class UMMCoursesViewController;
+@class UMWAboutViewControlller;
 
 @interface UWMMainViewController : UIViewController
-- (IBAction)showCourses:(id)sender;
+
 - (IBAction)sendEmail:(id)sender;
 @property (strong, nonatomic) IBOutlet UIButton *courseButton;
 @property (strong, nonatomic) IBOutlet UIButton *aboutUSButton;
@@ -21,5 +22,7 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *welcomeLabel;
 
+@property (strong, nonatomic) UMMCoursesViewController *coursesViewController;
+@property (strong, nonatomic) UMWAboutViewControlller *aboutViewController;
 
 @end
