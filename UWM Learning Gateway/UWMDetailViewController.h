@@ -11,7 +11,13 @@
 @interface UWMDetailViewController : UIViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) NSString* moduleTitle;
+@property (strong, nonatomic) NSString* moduleLength;
+@property (strong, nonatomic) NSString* moduleLink;
 
 @property (weak, nonatomic) IBOutlet UITextView *courseDescription;
+@property (weak, nonatomic) IBOutlet UILabel *courseTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *courseLengthLabel;
+- (IBAction)goToModule:(id)sender;
 
 @end

@@ -37,11 +37,14 @@
 
     if (self.detailItem) {
         self.courseDescription.text = [self.detailItem description];
+        self.courseTitleLabel.text = self.moduleTitle;
+        self.courseLengthLabel.text = self.moduleLength;
     }
 }
 
 - (void)viewDidLoad
 {
+    self.navigationItem.title = @"eLearning Module";
     self.navigationController.navigationBar.TintColor = [UIColor colorWithRed:142/255.0 green:111/255.0 blue:12/255.0 alpha:1];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -70,4 +73,8 @@
     self.masterPopoverController = nil;
 }
 
+- (IBAction)goToModule:(id)sender {
+    NSString *link = self.moduleLink;
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:link]];
+}
 @end

@@ -138,7 +138,22 @@
         //        NSDate *object = _objects[indexPath.row];
         NSString *descriptionOfCourse =[[[[coursesData objectAtIndex: indexPath.section] objectForKey: @"courses"] objectForKey:@"courseDescription"] objectAtIndex:indexPath.row];;
         [[segue destinationViewController] setDetailItem:descriptionOfCourse];
+        
+        NSString *titleOfCourses = [[[[coursesData objectAtIndex: indexPath.section] objectForKey: @"courses"] objectForKey:@"courseTitle"] objectAtIndex:indexPath.row];
+        [[segue destinationViewController] setModuleTitle:titleOfCourses];
+        
+        NSNumber *lengthOfCourse = [[[[coursesData objectAtIndex: indexPath.section] objectForKey: @"courses"] objectForKey:@"courseLength"] objectAtIndex:indexPath.row];
+        NSString *courseLength = [NSString stringWithFormat:@"%@ minutes",lengthOfCourse];
+        [[segue destinationViewController] setModuleLength:courseLength];
+        
+        NSString *courseLink =[[[[coursesData objectAtIndex: indexPath.section] objectForKey: @"courses"] objectForKey:@"courseLink"] objectAtIndex:indexPath.row];
+        
+        [[segue destinationViewController] setModuleLink:courseLink];
+
     }
+    
+    
+
 }
 
 

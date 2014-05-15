@@ -28,6 +28,13 @@
 				<string>This module presents a broad range of infection control concepts and practical steps to ensure the safety of patients and healthcare professionals in all clinical settings. This module must be completed on an annual basis to maintain compliance with OSHA and WISHA regulations on bloodborne pathogen training requirements.</string>
 				<string>This training module covers precautions for airborne transmission of infection in healthcare settings. Learners get an overview of airborne-transmitted diseases and risk factors for healthcare workers, reinforced by case studies of significant airborne outbreaks. Must-have airborne precautions are presented including: respiratory hygiene and etiquette; administrative and environmental airborne infection controls; UWMC requirements for personal protective equipment; and detailed instructions for the proper selection, fitting and use of respirators and masks.</string>
 			</array>
+			<key>courseLink</key>
+			<array>
+				<string>https://depts.washington.edu/lgateway/Abuse/</string>
+				<string>https://depts.washington.edu/mdelearn/_HTML/IC1_HTML/ie5/</string>
+				<string>https://depts.washington.edu/mdelearn/_HTML/IC2_HTML/ie5/</string>
+				<string>https://depts.washington.edu/lgateway/RespiratoryProtection/default.htm</string>
+			</array>
 		</dict>
 	</dict>
 	<dict>
@@ -49,6 +56,11 @@
 			<array>
 				<string>The Fatigue module provides an overview of the impact of sleepiness and fatigue on residents’ ability to carry out their professional responsibilities. It discusses the physiology of normal sleep and disrupted sleep and provides practical advice about how to balance the demands of long hours, call schedules, and healthy self-care.</string>
 				<string>Residents and fellows play a critical role in the education of medical students and other residents. This module introduces residents and fellows to a practical evidenced-based tool for teaching in the fast paced clinical setting. Part two of the module provides relevant information about the use of feedback in the learning process, including what facilitates and what inhibits learning, and how to communicate feedback effectively and in a timely manner.</string>
+			</array>
+			<key>courseLink</key>
+			<array>
+				<string>https://depts.washington.edu/lgateway/Fatigue_Review/</string>
+				<string>https://depts.washington.edu/lgateway/TeachingSkills_Review/</string>
 			</array>
 		</dict>
 	</dict>
@@ -92,6 +104,18 @@
 				<string>No detail description</string>
 				<string>This training module presents best practices around prevention of VTE. After completing this module learners will be able to recognize risk factors for VTE and identify indications and contraindications for VTE prophylaxis. They will also recognize appropriate drugs for pharmacologic prophylaxis, as well as the need to adjust VTE prophylaxis for special populations.</string>
 				<string>Video-based module primarily targeted to attending physicians at UW Medicine.</string>
+			</array>
+			<key>courseLink</key>
+			<array>
+				<string>https://depts.washington.edu/lgateway/_HTML/CVC_Overview_HTML/</string>
+				<string>https://depts.washington.edu/lgateway/_HTML/CVC_MD_HTML/</string>
+				<string>https://depts.washington.edu/lgateway/Inpatient-Outpatient/story.swf</string>
+				<string>https://depts.washington.edu/lgateway/_HTML/PS1_HTML/ie5/</string>
+				<string>https://depts.washington.edu/lgateway/_HTML/PS2_HTML/ie5/</string>
+				<string>https://depts.washington.edu/lgateway/_HTML/PhysDoc_HTML/ie5/</string>
+				<string>https://depts.washington.edu/lgateway/PSN/</string>
+				<string>https://depts.washington.edu/mdelearn/VTE_eLearning/player.html</string>
+				<string>https://depts.washington.edu/errdiscl/UW/</string>
 			</array>
 		</dict>
 	</dict>
