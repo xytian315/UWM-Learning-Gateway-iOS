@@ -14,11 +14,8 @@
 @interface UWMMainViewController : UIViewController
 
 - (IBAction)sendEmail:(id)sender;
-@property (strong, nonatomic) IBOutlet UIButton *courseButton;
-@property (strong, nonatomic) IBOutlet UIButton *aboutUSButton;
 
 
-@property (strong, nonatomic) IBOutlet UIButton *feedbackButton;
 
 
 

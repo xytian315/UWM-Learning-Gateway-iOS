@@ -134,11 +134,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6hF-Xb-uos"/>
-                    <connections>
-                        <outlet property="aboutUSButton" destination="dI9-i2-EPn" id="1aK-Gp-gcd"/>
-                        <outlet property="courseButton" destination="l1y-wf-p41" id="mjm-4Z-OCO"/>
-                        <outlet property="feedbackButton" destination="gsu-Pu-KME" id="1pc-1O-gX7"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZW6-ng-I1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -466,7 +461,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name=" " width="720" height="720"/>
+        <image name=" " width="290" height="95"/>
         <image name="290-95logo" width="290" height="95"/>
         <image name="about3" width="720" height="720"/>
         <image name="aboutIcon" width="53" height="35"/>
