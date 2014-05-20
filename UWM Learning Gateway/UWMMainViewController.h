@@ -16,11 +16,11 @@
 - (IBAction)sendEmail:(id)sender;
 @property (strong, nonatomic) IBOutlet UIButton *courseButton;
 @property (strong, nonatomic) IBOutlet UIButton *aboutUSButton;
-@property (strong, nonatomic) IBOutlet UIButton *quicklinksButton;
+
 
 @property (strong, nonatomic) IBOutlet UIButton *feedbackButton;
 
-@property (strong, nonatomic) IBOutlet UILabel *welcomeLabel;
+
 
 @property (strong, nonatomic) UMMCoursesViewController *coursesViewController;
 @property (strong, nonatomic) UMWAboutViewControlller *aboutViewController;

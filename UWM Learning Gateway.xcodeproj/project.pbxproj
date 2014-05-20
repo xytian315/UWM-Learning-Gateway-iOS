@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		440D14F31918ADA3007D4179 /* InDevelopCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 440D14F21918ADA3007D4179 /* InDevelopCourses.plist */; };
-		4416EC2519257598004FED85 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4416EC2419257598004FED85 /* BackButton.png */; };
 		4439895B1922D2C900BB40AD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439895A1922D2C900BB40AD /* background.png */; };
 		443EB83C1914188400F1BD7E /* UWMCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */; };
 		44AE55CC191AA7FA00D342FC /* UWMAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AE55CB191AA7FA00D342FC /* UWMAboutViewController.m */; };
@@ -46,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		440D14F21918ADA3007D4179 /* InDevelopCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InDevelopCourses.plist; sourceTree = "<group>"; };
-		4416EC2419257598004FED85 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
 		4439895A1922D2C900BB40AD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		443EB83A1914188400F1BD7E /* UWMCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMCoursesViewController.h; sourceTree = "<group>"; };
 		443EB83B1914188400F1BD7E /* UWMCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMCoursesViewController.m; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 				44CF9678191202D0006D97D7 /* UWMDetailViewController.m */,
 				44CF967A191202D0006D97D7 /* Images.xcassets */,
 				4439895A1922D2C900BB40AD /* background.png */,
-				4416EC2419257598004FED85 /* BackButton.png */,
 				44CF9663191202D0006D97D7 /* Supporting Files */,
 			);
 			path = "UWM Learning Gateway";
@@ -271,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4416EC2519257598004FED85 /* BackButton.png in Resources */,
 				44CF969819120336006D97D7 /* ActiveCourses.plist in Resources */,
 				44CF9673191202D0006D97D7 /* Main_iPad.storyboard in Resources */,
 				44FA48011919A70800406D38 /* Quicklinks.plist in Resources */,
