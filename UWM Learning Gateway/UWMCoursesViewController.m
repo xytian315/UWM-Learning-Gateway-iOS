@@ -33,6 +33,7 @@
     self.navigationItem.title = @"eLearning Modules";
    
     self.navigationController.navigationBar.barTintColor =  [UIColor colorWithRed:249/255.0 green:247/255.0 blue:231/255.0 alpha:1];
+    self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.TintColor = [UIColor colorWithRed:142/255.0 green:111/255.0 blue:12/255.0 alpha:1];
    
 //    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"home.png"]];

@@ -29,9 +29,10 @@
 - (void)viewDidLoad
 {
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
+    self.view.backgroundColor = [UIColor colorWithRed:249/255.0 green:247/255.0 blue:231/255.0 alpha:1];
    // self.navigationController.navigationBar.barTintColor =  [UIColor colorWithRed:249/255.0 green:247/255.0 blue:231/255.0 alpha:1];
    // [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"background.png"] forBarMetrics:UIBarMetricsDefault];
-   self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+  // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
    // [self.courseButton warningStyle];
