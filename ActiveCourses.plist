@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
-	<dict>
-		<key>sectionTitle</key>
-		<string>A. Federal State Requirements</string>
-		<key>courses</key>
-		<dict>
-			<key>courseTitle</key>
-			<array>
-				<string>Abuse and Neglect: Mandatory Reporting in WA State</string>
-				<string>Infection Control: Standard, Expanded and Syndromic Precautions</string>
-				<string>Infection Control: Bloodborne Pathogens</string>
-				<string>Respiratory Protection</string>
-			</array>
-			<key>courseLength</key>
-			<array>
-				<integer>10</integer>
-				<integer>30</integer>
-				<integer>20</integer>
-				<integer>10</integer>
-			</array>
-			<key>courseDescription</key>
-			<array>
-				<string>The healthcare worker plays a critical role in recognizing and reporting harm to others, regardless of whether that person is a patient, visitor or colleague. This eLearning module informs and educates on existing policies and procedures, and provides with the knowledge needed to assist those in danger. Through a legal review covering reporting statutes and consequences of not reporting, case studies and an overview of UW Medicine policies, the learner will be better equipped to handle those difficult situations tied to obvious or potential cases of abuse.</string>
-				<string>Fundamental infection control measures such as hand hygiene, respiratory hygiene, standard and transmission-based precautions, aseptic technique, and immunization against vaccine-preventable diseases play a significant role in preventing the transmission of infectious agents within the healthcare setting.</string>
-				<string>This module presents a broad range of infection control concepts and practical steps to ensure the safety of patients and healthcare professionals in all clinical settings. This module must be completed on an annual basis to maintain compliance with OSHA and WISHA regulations on bloodborne pathogen training requirements.</string>
-				<string>This training module covers precautions for airborne transmission of infection in healthcare settings. Learners get an overview of airborne-transmitted diseases and risk factors for healthcare workers, reinforced by case studies of significant airborne outbreaks. Must-have airborne precautions are presented including: respiratory hygiene and etiquette; administrative and environmental airborne infection controls; UWMC requirements for personal protective equipment; and detailed instructions for the proper selection, fitting and use of respirators and masks.</string>
-			</array>
-			<key>courseLink</key>
-			<array>
-				<string>https://depts.washington.edu/lgateway/Abuse/</string>
-				<string>https://depts.washington.edu/mdelearn/_HTML/IC1_HTML/ie5/</string>
-				<string>https://depts.washington.edu/mdelearn/_HTML/IC2_HTML/ie5/</string>
-				<string>https://depts.washington.edu/lgateway/RespiratoryProtection/default.htm</string>
-			</array>
-		</dict>
-	</dict>
-	<dict>
-		<key>sectionTitle</key>
-		<string>B. ACGME Requirements</string>
-		<key>courses</key>
-		<dict>
-			<key>courseTitle</key>
-			<array>
-				<string>Fatigue and Sleep Deprivation</string>
-				<string>Teaching Skills</string>
-			</array>
-			<key>courseLength</key>
-			<array>
-				<integer>30</integer>
-				<integer>15</integer>
-			</array>
-			<key>courseDescription</key>
-			<array>
-				<string>The Fatigue module provides an overview of the impact of sleepiness and fatigue on residents’ ability to carry out their professional responsibilities. It discusses the physiology of normal sleep and disrupted sleep and provides practical advice about how to balance the demands of long hours, call schedules, and healthy self-care.</string>
-				<string>Residents and fellows play a critical role in the education of medical students and other residents. This module introduces residents and fellows to a practical evidenced-based tool for teaching in the fast paced clinical setting. Part two of the module provides relevant information about the use of feedback in the learning process, including what facilitates and what inhibits learning, and how to communicate feedback effectively and in a timely manner.</string>
-			</array>
-			<key>courseLink</key>
-			<array>
-				<string>https://depts.washington.edu/lgateway/Fatigue_Review/</string>
-				<string>https://depts.washington.edu/lgateway/TeachingSkills_Review/</string>
-			</array>
-		</dict>
-	</dict>
-	<dict>
-		<key>sectionTitle</key>
-		<string>C. Medical Centers Requirements</string>
-		<key>courses</key>
-		<dict>
-			<key>courseTitle</key>
-			<array>
-				<string>CVC Overview</string>
-				<string>CVC for Practitioners</string>
-				<string>Inpatient Admission vs Outpatient Observation</string>
-				<string>Patient Safety 1 - NPSG (National Patient Safety Goals)</string>
-				<string>Patient Safety 2 - CMS (Center for Medicare and Medicaid Services) Initiatives</string>
-				<string>Physician Documentation</string>
-				<string>PSN - Patient Safety Net</string>
-				<string>Venous Thromboembolism (DVT)</string>
-				<string>Error Disclosure</string>
-			</array>
-			<key>courseLength</key>
-			<array>
-				<integer>15</integer>
-				<integer>45</integer>
-				<integer>10</integer>
-				<integer>20</integer>
-				<integer>15</integer>
-				<integer>15</integer>
-				<integer>5</integer>
-				<integer>10</integer>
-				<integer>60</integer>
-			</array>
-			<key>courseDescription</key>
-			<array>
-				<string>CVC training is designed to rapidly orient physicians to a standard method for central venous catheter (CVC) placement into the superior vena cava. CVC placement is a skill that all physicians who care for acutely ill patients will find useful. While CVC has a number of indications, it also presents significant risks for the patient during catheter insertion and while the catheter is in use. To help improve outcomes of CVC placement, UW Medicine and ISIS (Institute for Surgical and Interventional Simulation) have devised a program for physicians, with three parts: Two (2) Online Courses, offered on the UW Medicine Learning Management System (LMS)Hands-on Simulations, performed at the Institute for Simulation and Interprofessional Studies (ISIS), and Required supervised procedures. CVC Overview is the first of the two (2) online courses developed to orient physician learners to the best practices and key procedural steps in CVC placement. CVC Overview is also intended for the nurse audience. The Learning Gateway group makes this online course available through the UW Medicine Learning Management System.</string>
-				<string>CVC for Practitioners is the second of the two (2) online courses developed to orient physician learners to the best practices and key procedural steps in CVC placement. The Learning Gateway group, in collaboration with ISIS, makes this online course available through the UW Medicine Learning Management System.</string>
-				<string>No detail description</string>
-				<string>Most hospitals in the U.S. are voluntarily surveyed by the Joint Commission. As part of the certification process, hospitals are evaluated for their compliance with a set of national Patient Safety Goals. These are a set of consensus-based organizational behaviors that have been demonstrated to improve safety. This module is an introduction to the National Patient Safety Goals as outlined by the Joint Commission, and endorsed by many payors. This course also outlines the core measures that a majority of hospitals report to the Center for Medicare and Medicaid Services.</string>
-				<string>Most hospitals in the U.S. are voluntarily surveyed by the Joint Commission. As part of the certification process, hospitals are evaluated for their compliance with a set of national Patient Safety Goals. These are a set of consensus-based organizational behaviors that have been demonstrated to improve safety. This module is an introduction to the National Patient Safety Goals as outlined by the Joint Commission, and endorsed by many payors. This course also outlines the core measures that a majority of hospitals report to the Center for Medicare and Medicaid Services.</string>
-				<string>Medicare has very specific rules on payment for physician services in teaching settings. The Physician Documentation module provides a detailed discussion of guidelines for residents/fellows on teaching physicians documentation, particularly as they relate to Evaluation and Management (EandM) coding, Diagnosis Related Groups (DRG) assignments, and reimbursement for health care services. The module also discusses how physician documentation is impacted by Medicare’s fraud and abuse regulations.</string>
-				<string>No detail description</string>
-				<string>This training module presents best practices around prevention of VTE. After completing this module learners will be able to recognize risk factors for VTE and identify indications and contraindications for VTE prophylaxis. They will also recognize appropriate drugs for pharmacologic prophylaxis, as well as the need to adjust VTE prophylaxis for special populations.</string>
-				<string>Video-based module primarily targeted to attending physicians at UW Medicine.</string>
-			</array>
-			<key>courseLink</key>
-			<array>
-				<string>https://depts.washington.edu/lgateway/_HTML/CVC_Overview_HTML/</string>
-				<string>https://depts.washington.edu/lgateway/_HTML/CVC_MD_HTML/</string>
-				<string>https://depts.washington.edu/lgateway/Inpatient-Outpatient/story.swf</string>
-				<string>https://depts.washington.edu/lgateway/_HTML/PS1_HTML/ie5/</string>
-				<string>https://depts.washington.edu/lgateway/_HTML/PS2_HTML/ie5/</string>
-				<string>https://depts.washington.edu/lgateway/_HTML/PhysDoc_HTML/ie5/</string>
-				<string>https://depts.washington.edu/lgateway/PSN/</string>
-				<string>https://depts.washington.edu/mdelearn/VTE_eLearning/player.html</string>
-				<string>https://depts.washington.edu/errdiscl/UW/</string>
-			</array>
-		</dict>
-	</dict>
-</array>
+    <array>
+        <dict>
+            <key>sectionTitle</key>
+            <string>A. Federal/State Requirements</string>
+            <key>courses</key>
+            <dict>
+                <key>courseTitle</key>
+                <array>
+                    <string>Abuse and Neglect: Mandatory Reporting in WA State</string>
+                    <string>Infection Control: Standard, Expanded and Syndromic Precautions</string>
+                    <string>Bloodborne Pathogens</string>
+                    <string>Respiratory Protection</string>
+                </array>
+                <key>courseLength</key>
+                <array>
+                    <integer>10</integer>
+                    <integer>30</integer>
+                    <integer>20</integer>
+                    <integer>10</integer>
+                </array>
+                <key>courseDescription</key>
+                <array>
+                    <string>The healthcare worker plays a critical role in recognizing and reporting harm to others, regardless of whether that person is a patient, visitor or colleague. This eLearning module informs and educates on existing policies and procedures, and provides with the knowledge needed to assist those in danger. Through a legal review covering reporting statutes and consequences of not reporting, case studies and an overview of UW Medicine policies, the learner will be better equipped to handle those difficult situations tied to obvious or potential cases of abuse.</string>
+                    <string>Fundamental infection control measures such as hand hygiene, respiratory hygiene, standard and transmission-based precautions, aseptic technique, and immunization against vaccine-preventable diseases play a significant role in preventing the transmission of infectious agents within the healthcare setting.</string>
+                    <string>This module presents a broad range of infection control concepts and practical steps to ensure the safety of patients and healthcare professionals in all clinical settings. This module must be completed on an annual basis to maintain compliance with OSHA and WISHA regulations on bloodborne pathogen training requirements.</string>
+                    <string>This training module covers precautions for airborne transmission of infection in healthcare settings. Learners get an overview of airborne-transmitted diseases and risk factors for healthcare workers, reinforced by case studies of significant airborne outbreaks. Must-have airborne precautions are presented including: respiratory hygiene and etiquette; administrative and environmental airborne infection controls; UWMC requirements for personal protective equipment; and detailed instructions for the proper selection, fitting and use of respirators and masks.</string>
+                </array>
+                <key>courseLink</key>
+                <array>
+                    <string>https://depts.washington.edu/lgateway/Abuse/</string>
+                    <string>https://depts.washington.edu/mdelearn/_HTML/IC1_HTML/ie5/</string>
+                    <string>https://depts.washington.edu/mdelearn/_HTML/IC2_HTML/ie5/</string>
+                    <string>https://depts.washington.edu/lgateway/RespiratoryProtection/default.htm</string>
+                </array>
+            </dict>
+        </dict>
+        <dict>
+            <key>sectionTitle</key>
+            <string>B. ACGME Requirements</string>
+            <key>courses</key>
+            <dict>
+                <key>courseTitle</key>
+                <array>
+                    <string>Fatigue Management and Mitigation</string>
+                    <string>Teaching Skills for Residents</string>
+                </array>
+                <key>courseLength</key>
+                <array>
+                    <integer>30</integer>
+                    <integer>15</integer>
+                </array>
+                <key>courseDescription</key>
+                <array>
+                    <string>The Fatigue module provides an overview of the impact of sleepiness and fatigue on residents’ ability to carry out their professional responsibilities. It discusses the physiology of normal sleep and disrupted sleep and provides practical advice about how to balance the demands of long hours, call schedules, and healthy self-care.</string>
+                    <string>Residents and fellows play a critical role in the education of medical students and other residents. This module introduces residents and fellows to a practical evidenced-based tool for teaching in the fast paced clinical setting. Part two of the module provides relevant information about the use of feedback in the learning process, including what facilitates and what inhibits learning, and how to communicate feedback effectively and in a timely manner.</string>
+                </array>
+                <key>courseLink</key>
+                <array>
+                    <string>https://depts.washington.edu/lgateway/Fatigue_Review/</string>
+                    <string>https://depts.washington.edu/lgateway/TeachingSkills_Review/</string>
+                </array>
+            </dict>
+        </dict>
+        <dict>
+            <key>sectionTitle</key>
+            <string>C. Medical Centers Requirements</string>
+            <key>courses</key>
+            <dict>
+                <key>courseTitle</key>
+                <array>
+                    <string>CVC Overview</string>
+                    <string>CVC for Practitioners</string>
+                    <string>Medical Necessity</string>
+                    <string>Patient Safety 1 - NPSG (National Patient Safety Goals)</string>
+                    <string>Patient Safety 2 - CMS (Center for Medicare and Medicaid Services) Initiatives</string>
+                    <string>Physician Documentation</string>
+                    <string>Patient Safety Net (PSN)</string>
+                    <string>Venous Thromboembolism (DVT)</string>
+                    <string>Error Disclosure</string>
+                </array>
+                <key>courseLength</key>
+                <array>
+                    <integer>15</integer>
+                    <integer>45</integer>
+                    <integer>10</integer>
+                    <integer>20</integer>
+                    <integer>15</integer>
+                    <integer>15</integer>
+                    <integer>5</integer>
+                    <integer>10</integer>
+                    <integer>60</integer>
+                </array>
+                <key>courseDescription</key>
+                <array>
+                    <string>CVC training is designed to rapidly orient physicians to a standard method for central venous catheter (CVC) placement into the superior vena cava. CVC placement is a skill that all physicians who care for acutely ill patients will find useful. While CVC has a number of indications, it also presents significant risks for the patient during catheter insertion and while the catheter is in use. To help improve outcomes of CVC placement, UW Medicine and ISIS (Institute for Surgical and Interventional Simulation) have devised a program for physicians, with three parts: Two (2) Online Courses, offered on the UW Medicine Learning Management System (LMS)Hands-on Simulations, performed at the Institute for Simulation and Interprofessional Studies (ISIS), and Required supervised procedures. CVC Overview is the first of the two (2) online courses developed to orient physician learners to the best practices and key procedural steps in CVC placement. CVC Overview is also intended for the nurse audience. The Learning Gateway group makes this online course available through the UW Medicine Learning Management System.</string>
+                    <string>CVC for Practitioners is the second of the two (2) online courses developed to orient physician learners to the best practices and key procedural steps in CVC placement. The Learning Gateway group, in collaboration with ISIS, makes this online course available through the UW Medicine Learning Management System.</string>
+                    <string>When to admit as inpatient and when not to?  Physicians must determine the correct patient status based on medical necessity and properly document it in the medical record.  UW Medicine is increasingly in the position to defend its documentation and has had to repay millions of dollars of inpatient claims over the past few years because of medical necessity-related concerns.   All UW Medicine physicians who admit patients into the hospital will find this eLearning helpful in bolstering our collective effort to improve documentation and reduce the volume of repayment requests.</string>
+                    <string>Most hospitals in the U.S. are voluntarily surveyed by the Joint Commission. As part of the certification process, hospitals are evaluated for their compliance with a set of national Patient Safety Goals. These are a set of consensus-based organizational behaviors that have been demonstrated to improve safety. This module is an introduction to the National Patient Safety Goals as outlined by the Joint Commission, and endorsed by many payors. This course also outlines the core measures that a majority of hospitals report to the Center for Medicare and Medicaid Services.</string>
+                    <string>Most hospitals in the U.S. are voluntarily surveyed by the Joint Commission. As part of the certification process, hospitals are evaluated for their compliance with a set of national Patient Safety Goals. These are a set of consensus-based organizational behaviors that have been demonstrated to improve safety. This module is an introduction to the National Patient Safety Goals as outlined by the Joint Commission, and endorsed by many payors. This course also outlines the core measures that a majority of hospitals report to the Center for Medicare and Medicaid Services.</string>
+                    <string>Medicare has very specific rules on payment for physician services in teaching settings. The Physician Documentation module provides a detailed discussion of guidelines for residents/fellows on teaching physicians documentation, particularly as they relate to Evaluation and Management (EandM) coding, Diagnosis Related Groups (DRG) assignments, and reimbursement for health care services. The module also discusses how physician documentation is impacted by Medicare’s fraud and abuse regulations.</string>
+                    <string>Reporting an error or a near-miss does not have to be difficult. Nor does it have to be a complicated process. This brief module will show you that it isn’t. That reporting can have a friendly web interface, can be anonymous and can make a difference. And it does. In this module you will also learn what happens with those reports at UW Medicine, how they are really linked to patient safety and how things truly change due to those reports.</string>
+                    <string>This training module presents best practices around prevention of VTE. After completing this module learners will be able to recognize risk factors for VTE and identify indications and contraindications for VTE prophylaxis. They will also recognize appropriate drugs for pharmacologic prophylaxis, as well as the need to adjust VTE prophylaxis for special populations.</string>
+                    <string>Video-based module primarily targeted to attending physicians at UW Medicine.</string>
+                </array>
+                <key>courseLink</key>
+                <array>
+                    <string>https://depts.washington.edu/lgateway/_HTML/CVC_Overview_HTML/</string>
+                    <string>https://depts.washington.edu/lgateway/_HTML/CVC_MD_HTML/</string>
+                    <string>https://depts.washington.edu/lgateway/Inpatient-Outpatient/story.swf</string>
+                    <string>https://depts.washington.edu/lgateway/_HTML/PS1_HTML/ie5/</string>
+                    <string>https://depts.washington.edu/lgateway/_HTML/PS2_HTML/ie5/</string>
+                    <string>https://depts.washington.edu/lgateway/_HTML/PhysDoc_HTML/ie5/</string>
+                    <string>https://depts.washington.edu/lgateway/PSN/</string>
+                    <string>https://depts.washington.edu/mdelearn/VTE_eLearning/player.html</string>
+                    <string>https://depts.washington.edu/errdiscl/UW/</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
 </plist>
